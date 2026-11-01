@@ -1,0 +1,12 @@
+{
+  "normalizer_version": "0.13.3",
+  "normalizer_module": "/data/sakai99/ai-data-02/daniez/OmniVoice/OmniVoice/norm/__init__.py",
+  "normalizer_tree_sha256": "8ce792fb709d7794fdba2098d9d7d7101303c6470492b8377f9bb2a8d7a07762",
+  "cases_path": "/data/sakai99/ai-data-02/sakai99/g_omnivoice_full_finetune_v2/eval17/danhgia_tts_cases.jsonl",
+  "cases_sha256": "0ac01072e61caacfe58e2e2cb710e93a1e10ab81aae0d7a394d1f75ea40b1d58",
+  "document_count": 17,
+  "chunk_count": 101,
+  "max_chars": 430,
+  "raw_target_chars": 330,
+  "content_sha256": "0879980c0099d1f448b416691ab1261ba1c3fc10c86098c8889962fb14c9bfe3"
+}

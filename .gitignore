@@ -1,0 +1,55 @@
+# Exclude historical input folders if restored from a separate backup.
+/Month1/
+/Month2/
+/Month3/
+/.repo_work/
+
+# Datasets, models and generated outputs
+/data/
+/models/
+/outputs/
+/external/
+/.cache/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.wav
+*.mp3
+*.flac
+*.mp4
+*.tar
+*.tar.gz
+*.zip
+*.whl
+*.docx
+*.xlsx
+
+# Credentials and machine configuration
+.env
+.env.*
+!.env.example
+cookies*.txt
+*cookies*.json
+*.pem
+*.key
+/configs/local.env
+
+# Python / editors
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.log
+*.pid
+.DS_Store
+Thumbs.db

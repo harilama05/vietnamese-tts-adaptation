@@ -1,0 +1,11 @@
+{
+  "chunk_count": 101,
+  "document_count": 17,
+  "mean_wer": 0.09016,
+  "mean_cer": 0.067603,
+  "model_auto_ok": 34,
+  "model_or_asr_review": 49,
+  "not_judged_norm_unsettled": 18,
+  "whisper_model": "large-v3",
+  "scoring_mode": "chunk-wise; condition_on_previous_text=False; beam_size=5; temperature=0.0; vad_filter=False"
+}

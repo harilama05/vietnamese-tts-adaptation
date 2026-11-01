@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vietnamese-tts-normalizer"
+version = "0.13.3"
+description = "Configurable standard-library-only Vietnamese normalization for TTS"
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.scripts]
+vi-normalize = "vietnamese_tts_normalizer.__main__:main"
+
+[tool.setuptools]
+packages = ["vietnamese_tts_normalizer"]
+package-dir = {"vietnamese_tts_normalizer" = "."}
+
+[tool.setuptools.package-data]
+vietnamese_tts_normalizer = ["data/*.txt", "data/LICENSE.soe-vinorm", "data/NOTICE.md", "profiles/*.json"]

@@ -1,0 +1,16 @@
+{
+  "model_name": "g_omnivoice_full",
+  "base_model": "/data/sakai99/ai-data-02/sakai99/finetune_outputs/g_omnivoice_full_recommended/run/checkpoint-17500",
+  "adapter": null,
+  "text_count": 17,
+  "chunk_count": 101,
+  "load_seconds_last_invocation": 2.033,
+  "reference_prompt_seconds_last_invocation": 0.478,
+  "generation_seconds": 79.91,
+  "audio_seconds": 1391.53,
+  "weighted_rtf": 0.057426,
+  "median_chunk_rtf": 0.057576,
+  "peak_vram_mib": 2377.32,
+  "chunks_sha256": "0879980c0099d1f448b416691ab1261ba1c3fc10c86098c8889962fb14c9bfe3",
+  "reference_sha256": "1887504551ca86cd18dee44acfcc45ed8333aaddab2813169a76ae3a5274f604"
+}

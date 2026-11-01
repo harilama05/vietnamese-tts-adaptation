@@ -1,0 +1,7 @@
+Mục,Nội dung
+Phạm vi,Danh sách ứng viên cần nghe của G-OmniVoice full FT checkpoint-17500 trên bộ 17 văn bản.
+Nguyên tắc,Không coi chữ↔số là lỗi; không tự flag tên nước ngoài chỉ vì Whisper khác; manual listening là ground truth.
+VI_WORD_SUBSTITUTION,Whisper cho thấy thay thế từ tiếng Việt đáng nghi; cần nghe để phân biệt MODEL_ERROR và ASR_ERROR.
+OLD_ERROR_RECHECK,Lỗi đã được xác nhận ở OmniVoice LoRA cũ; bản mới cần nghe lại vì transcript không đủ để kết luận.
+OLD_ERROR_LIKELY_PERSIST,Lỗi cũ và transcript mới cùng cho tín hiệu đáng nghi; ưu tiên nghe.
+CHUNKING,"Lỗi ranh giới chunk còn tồn tại; đây là lỗi pipeline/chunking, không nên quy trực tiếp cho model."

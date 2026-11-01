@@ -1,0 +1,11 @@
+{
+  "document_count": 17,
+  "chunk_count": 101,
+  "review_chunk_count": 67,
+  "issue_counts": {
+    "MODEL_OR_ASR_REVIEW": 49,
+    "AUTO_OK_UNVERIFIED": 34,
+    "NORM_REVIEW": 18
+  },
+  "note": "Automatic model flags are screening signals. Listen to flagged audio to separate MODEL_ERROR from ASR_ERROR."
+}

@@ -1,0 +1,1956 @@
+{
+  "format_version": 1,
+  "description": "News grammar regression fixtures; proposed synthetic labels, not an independent holdout.",
+  "cases": [
+    {
+      "id": "NEWS-001",
+      "group": "news_money",
+      "input": "12–25 tỷ USD",
+      "config": {},
+      "accepted_readings": [
+        "từ mười hai đến hai mươi lăm tỷ đô la Mỹ"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: USD đọc là đô la Mỹ, khoảng 'từ … đến', viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-002",
+      "group": "news_money",
+      "input": "1,2–1,5 triệu thùng/ngày",
+      "config": {},
+      "accepted_readings": [
+        "từ một phẩy hai đến một phẩy năm triệu thùng trên ngày"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: khoảng 'từ … đến'."
+    },
+    {
+      "id": "NEWS-003",
+      "group": "news_money",
+      "input": "120–150 nghìn người",
+      "config": {},
+      "accepted_readings": [
+        "từ một trăm hai mươi đến một trăm năm mươi nghìn người"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: khoảng 'từ … đến'."
+    },
+    {
+      "id": "NEWS-004",
+      "group": "news_money",
+      "input": "2,5 triệu USD/tấn",
+      "config": {},
+      "accepted_readings": [
+        "hai phẩy năm triệu đô la Mỹ trên tấn"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: USD đọc là đô la Mỹ, viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-005",
+      "group": "news_money",
+      "input": "800 triệu–1 tỷ đồng",
+      "config": {},
+      "accepted_readings": [
+        "tám trăm triệu đến một tỷ đồng"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-006",
+      "group": "news_money",
+      "input": "1 triệu cổ phiếu",
+      "config": {},
+      "accepted_readings": [
+        "một triệu cổ phiếu"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-007",
+      "group": "news_money",
+      "input": "1–2 triệu cổ phiếu",
+      "config": {},
+      "accepted_readings": [
+        "từ một đến hai triệu cổ phiếu"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: khoảng 'từ … đến'."
+    },
+    {
+      "id": "NEWS-008",
+      "group": "news_money",
+      "input": "10–20 bệnh nhân",
+      "config": {},
+      "accepted_readings": [
+        "từ mười đến hai mươi bệnh nhân"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: khoảng 'từ … đến'."
+    },
+    {
+      "id": "NEWS-009",
+      "group": "news_money",
+      "input": "20-30 hộ dân",
+      "config": {},
+      "accepted_readings": [
+        "từ hai mươi đến ba mươi hộ dân"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: khoảng 'từ … đến'."
+    },
+    {
+      "id": "NEWS-010",
+      "group": "news_money",
+      "input": "2–3 doanh nghiệp",
+      "config": {},
+      "accepted_readings": [
+        "từ hai đến ba doanh nghiệp"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: khoảng 'từ … đến'."
+    },
+    {
+      "id": "NEWS-011",
+      "group": "news_money",
+      "input": "1,5 triệu EUR",
+      "config": {},
+      "accepted_readings": [
+        "một phẩy năm triệu ơ rô"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-012",
+      "group": "news_money",
+      "input": "2 tỉ GBP",
+      "config": {},
+      "accepted_readings": [
+        "hai tỷ bảng Anh"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-013",
+      "group": "news_money",
+      "input": "USD 83,75/thùng",
+      "config": {},
+      "accepted_readings": [
+        "tám mươi ba phẩy bảy mươi lăm đô la Mỹ trên thùng"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: USD đọc là đô la Mỹ, viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-014",
+      "group": "news_money",
+      "input": "USD 80–85/thùng",
+      "config": {},
+      "accepted_readings": [
+        "từ tám mươi đến tám mươi lăm đô la Mỹ trên thùng"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: USD đọc là đô la Mỹ, khoảng 'từ … đến', viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-015",
+      "group": "news_money",
+      "input": "EUR 1,2–1,5 triệu",
+      "config": {},
+      "accepted_readings": [
+        "từ một phẩy hai đến một phẩy năm triệu ơ rô"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: khoảng 'từ … đến'."
+    },
+    {
+      "id": "NEWS-016",
+      "group": "news_money",
+      "input": "$20/bao",
+      "config": {},
+      "accepted_readings": [
+        "hai mươi đô la trên bao"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-017",
+      "group": "news_money",
+      "input": "VND 25.000/chai",
+      "config": {},
+      "accepted_readings": [
+        "hai mươi lăm nghìn đồng trên chai"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-018",
+      "group": "news_money",
+      "input": "JPY 500/kg",
+      "config": {},
+      "accepted_readings": [
+        "năm trăm yên Nhật trên ki lô gam"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-019",
+      "group": "news_money",
+      "input": "CNY 10–20/tấn",
+      "config": {},
+      "accepted_readings": [
+        "từ mười đến hai mươi nhân dân tệ trên tấn"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: khoảng 'từ … đến'."
+    },
+    {
+      "id": "NEWS-020",
+      "group": "news_money",
+      "input": "USD -5",
+      "config": {},
+      "accepted_readings": [
+        "âm năm đô la Mỹ"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: USD đọc là đô la Mỹ, viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-021",
+      "group": "news_money",
+      "input": "USD 2/100kg",
+      "config": {},
+      "accepted_readings": [
+        "hai đô la Mỹ trên một trăm ki lô gam"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: USD đọc là đô la Mỹ, viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-022",
+      "group": "news_money",
+      "input": "5 USD/100kg",
+      "config": {},
+      "accepted_readings": [
+        "năm đô la Mỹ trên một trăm ki lô gam"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: USD đọc là đô la Mỹ, viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-023",
+      "group": "news_money",
+      "input": "USD/100kg",
+      "config": {},
+      "accepted_readings": [
+        "đô la Mỹ trên một trăm ki lô gam"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: USD đọc là đô la Mỹ, viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-024",
+      "group": "news_money",
+      "input": "1,5 tấn/ha",
+      "config": {},
+      "accepted_readings": [
+        "một phẩy năm tấn trên héc ta"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-025",
+      "group": "news_money",
+      "input": "2 lượng vàng",
+      "config": {},
+      "accepted_readings": [
+        "hai lượng vàng"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-026",
+      "group": "news_money",
+      "input": "30 bbl/ngày",
+      "config": {},
+      "accepted_readings": [
+        "ba mươi thùng trên ngày"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-027",
+      "group": "news_money",
+      "input": "25.000 đồng/lít",
+      "config": {},
+      "accepted_readings": [
+        "hai mươi lăm nghìn đồng trên lít"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-028",
+      "group": "news_money",
+      "input": "1,2..3 triệu USD",
+      "config": {},
+      "accepted_readings": [
+        "1,2..3 triệu USD"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-029",
+      "group": "news_money",
+      "input": "1 tỷ–2 USD",
+      "config": {},
+      "accepted_readings": [
+        "1 tỷ–2 USD"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-030",
+      "group": "news_money",
+      "input": "3–2 triệu USD",
+      "config": {},
+      "accepted_readings": [
+        "3–2 triệu USD"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-031",
+      "group": "news_money",
+      "input": "USD 20/unknown",
+      "config": {},
+      "accepted_readings": [
+        "USD 20/unknown"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-032",
+      "group": "news_money",
+      "input": "USD 2/0kg",
+      "config": {},
+      "accepted_readings": [
+        "USD 2/0kg"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-033",
+      "group": "news_money",
+      "input": "5 USD/0kg",
+      "config": {},
+      "accepted_readings": [
+        "5 USD/0kg"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-034",
+      "group": "news_money",
+      "input": "USD/VND",
+      "config": {},
+      "accepted_readings": [
+        "USD/VND"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-035",
+      "group": "news_money",
+      "input": "USD 1.234",
+      "config": {
+        "ambiguous_number": "preserve"
+      },
+      "accepted_readings": [
+        "USD 1.234"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-036",
+      "group": "news_money",
+      "input": "USD 30–20",
+      "config": {},
+      "accepted_readings": [
+        "USD 30–20"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-037",
+      "group": "news_money",
+      "input": "12A/3B",
+      "config": {},
+      "accepted_readings": [
+        "12A/3B"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-038",
+      "group": "news_money",
+      "input": "5m/2h",
+      "config": {},
+      "accepted_readings": [
+        "5m/2h"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-039",
+      "group": "news_money",
+      "input": "USD 1.234",
+      "config": {
+        "number_locale": "vi"
+      },
+      "accepted_readings": [
+        "một nghìn hai trăm ba mươi tư đô la Mỹ"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: USD đọc là đô la Mỹ, viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-040",
+      "group": "news_money",
+      "input": "USD 1.234",
+      "config": {
+        "number_locale": "en"
+      },
+      "accepted_readings": [
+        "một phẩy hai ba bốn đô la Mỹ"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: USD đọc là đô la Mỹ, viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-041",
+      "group": "news_statistics",
+      "input": "lãi suất giảm 25 bps",
+      "config": {},
+      "accepted_readings": [
+        "lãi suất giảm hai mươi lăm điểm cơ bản"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-042",
+      "group": "news_statistics",
+      "input": "lãi suất tăng 25–50 bp",
+      "config": {},
+      "accepted_readings": [
+        "lãi suất tăng từ hai mươi lăm đến năm mươi điểm cơ bản"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: khoảng 'từ … đến'."
+    },
+    {
+      "id": "NEWS-043",
+      "group": "news_statistics",
+      "input": "Lãi suất: 10 bps",
+      "config": {},
+      "accepted_readings": [
+        "Lãi suất: mười điểm cơ bản"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-044",
+      "group": "news_statistics",
+      "input": "lãi suất giảm thêm 50 bps",
+      "config": {},
+      "accepted_readings": [
+        "lãi suất giảm thêm năm mươi điểm cơ bản"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-045",
+      "group": "news_statistics",
+      "input": "tăng 0,25 điểm %",
+      "config": {},
+      "accepted_readings": [
+        "tăng không phẩy hai mươi lăm điểm phần trăm"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-046",
+      "group": "news_statistics",
+      "input": "0,5–1 điểm %",
+      "config": {},
+      "accepted_readings": [
+        "từ không phẩy năm đến một điểm phần trăm"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: khoảng 'từ … đến'."
+    },
+    {
+      "id": "NEWS-047",
+      "group": "news_statistics",
+      "input": "băng thông 25 bps",
+      "config": {},
+      "accepted_readings": [
+        "băng thông hai mươi lăm bít trên giây"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-048",
+      "group": "news_statistics",
+      "input": "1.234 người",
+      "config": {
+        "number_locale": "vi"
+      },
+      "accepted_readings": [
+        "một nghìn hai trăm ba mươi tư người"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-049",
+      "group": "news_dates",
+      "input": "tháng 6–8/2026",
+      "config": {},
+      "accepted_readings": [
+        "tháng sáu đến tháng tám năm hai nghìn không trăm hai mươi sáu"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: lặp lại quý/tháng trong khoảng."
+    },
+    {
+      "id": "NEWS-050",
+      "group": "news_dates",
+      "input": "tháng 3 - 4 / 2026",
+      "config": {},
+      "accepted_readings": [
+        "tháng ba đến tháng tư năm hai nghìn không trăm hai mươi sáu"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: lặp lại quý/tháng trong khoảng."
+    },
+    {
+      "id": "NEWS-051",
+      "group": "news_dates",
+      "input": "quý I–II/2026",
+      "config": {},
+      "accepted_readings": [
+        "quý một đến quý hai năm hai nghìn không trăm hai mươi sáu"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: lặp lại quý/tháng trong khoảng."
+    },
+    {
+      "id": "NEWS-052",
+      "group": "news_dates",
+      "input": "quý 3–4/2026",
+      "config": {},
+      "accepted_readings": [
+        "quý ba đến quý bốn năm hai nghìn không trăm hai mươi sáu"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: lặp lại quý/tháng trong khoảng."
+    },
+    {
+      "id": "NEWS-053",
+      "group": "news_dates",
+      "input": "nhiệm kỳ 2026–2031",
+      "config": {},
+      "accepted_readings": [
+        "nhiệm kỳ hai nghìn không trăm hai mươi sáu đến hai nghìn không trăm ba mươi mốt"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-054",
+      "group": "news_dates",
+      "input": "giai đoạn 2024-2026",
+      "config": {},
+      "accepted_readings": [
+        "giai đoạn hai nghìn không trăm hai mươi tư đến hai nghìn không trăm hai mươi sáu"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-055",
+      "group": "news_dates",
+      "input": "niên độ 2025–2026",
+      "config": {},
+      "accepted_readings": [
+        "niên độ hai nghìn không trăm hai mươi lăm đến hai nghìn không trăm hai mươi sáu"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-056",
+      "group": "news_dates",
+      "input": "tháng 8–6/2026",
+      "config": {},
+      "accepted_readings": [
+        "tháng 8–6/2026"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-057",
+      "group": "news_dates",
+      "input": "tháng 0–12/2026",
+      "config": {},
+      "accepted_readings": [
+        "tháng 0–12/2026"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-058",
+      "group": "news_dates",
+      "input": "tháng 1–13/2026",
+      "config": {},
+      "accepted_readings": [
+        "tháng 1–13/2026"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-059",
+      "group": "news_dates",
+      "input": "tháng 1–2/26",
+      "config": {},
+      "accepted_readings": [
+        "tháng 1–2/26"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-060",
+      "group": "news_dates",
+      "input": "quý II–V/2026",
+      "config": {},
+      "accepted_readings": [
+        "quý II–V/2026"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-061",
+      "group": "news_dates",
+      "input": "quý III–I/2026",
+      "config": {},
+      "accepted_readings": [
+        "quý III–I/2026"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-062",
+      "group": "news_dates",
+      "input": "quý I–II/0000",
+      "config": {},
+      "accepted_readings": [
+        "quý I–II/0000"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-063",
+      "group": "news_dates",
+      "input": "nhiệm kỳ 2031–2026",
+      "config": {},
+      "accepted_readings": [
+        "nhiệm kỳ 2031–2026"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-064",
+      "group": "news_dates",
+      "input": "niên độ 20–26",
+      "config": {},
+      "accepted_readings": [
+        "niên độ 20–26"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-065",
+      "group": "news_weather_health",
+      "input": "gió cấp 6–7, giật cấp 9",
+      "config": {},
+      "accepted_readings": [
+        "gió cấp sáu đến bảy, giật cấp chín"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-066",
+      "group": "news_weather_health",
+      "input": "lượng mưa 100–200 mm/24h",
+      "config": {},
+      "accepted_readings": [
+        "lượng mưa từ một trăm đến hai trăm mi li mét trên hai mươi tư giờ"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: khoảng 'từ … đến'."
+    },
+    {
+      "id": "NEWS-067",
+      "group": "news_weather_health",
+      "input": "5 m/2h",
+      "config": {},
+      "accepted_readings": [
+        "năm mét trên hai giờ"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-068",
+      "group": "news_weather_health",
+      "input": "PM2.5",
+      "config": {},
+      "accepted_readings": [
+        "pê mờ hai chấm năm"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-069",
+      "group": "news_weather_health",
+      "input": "PM10",
+      "config": {},
+      "accepted_readings": [
+        "pê mờ mười"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-070",
+      "group": "news_weather_health",
+      "input": "PM1",
+      "config": {},
+      "accepted_readings": [
+        "pê mờ một"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-071",
+      "group": "news_weather_health",
+      "input": "COVID-19",
+      "config": {},
+      "accepted_readings": [
+        "cô vít mười chín"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-072",
+      "group": "news_weather_health",
+      "input": "H5N1",
+      "config": {},
+      "accepted_readings": [
+        "hắt năm nờ một"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-073",
+      "group": "news_weather_health",
+      "input": "H1N1",
+      "config": {},
+      "accepted_readings": [
+        "hắt một nờ một"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-074",
+      "group": "news_weather_health",
+      "input": "H7N9",
+      "config": {},
+      "accepted_readings": [
+        "hắt bảy nờ chín"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-075",
+      "group": "news_weather_health",
+      "input": "PM2.50",
+      "config": {},
+      "accepted_readings": [
+        "PM2.50"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-076",
+      "group": "news_weather_health",
+      "input": "PM2,5",
+      "config": {},
+      "accepted_readings": [
+        "PM2,5"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-077",
+      "group": "news_weather_health",
+      "input": "PM25",
+      "config": {},
+      "accepted_readings": [
+        "PM25"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-078",
+      "group": "news_weather_health",
+      "input": "COVID-20",
+      "config": {},
+      "accepted_readings": [
+        "COVID-20"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-079",
+      "group": "news_weather_health",
+      "input": "H0N1",
+      "config": {},
+      "accepted_readings": [
+        "H0N1"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-080",
+      "group": "news_weather_health",
+      "input": "H5N0001",
+      "config": {},
+      "accepted_readings": [
+        "H5N0001"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-081",
+      "group": "news_weather_health",
+      "input": "H2O",
+      "config": {},
+      "accepted_readings": [
+        "hắt hai ô"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần."
+    },
+    {
+      "id": "NEWS-082",
+      "group": "news_weather_health",
+      "input": "gió cấp 7–6",
+      "config": {},
+      "accepted_readings": [
+        "gió cấp 7–6"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-083",
+      "group": "news_international",
+      "input": "nhóm G7",
+      "config": {},
+      "accepted_readings": [
+        "nhóm gờ bảy"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-084",
+      "group": "news_international",
+      "input": "nhóm G8",
+      "config": {},
+      "accepted_readings": [
+        "nhóm gờ tám"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-085",
+      "group": "news_international",
+      "input": "nhóm nước G20",
+      "config": {},
+      "accepted_readings": [
+        "nhóm nước gờ hai mươi"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-086",
+      "group": "news_international",
+      "input": "các nước E4",
+      "config": {},
+      "accepted_readings": [
+        "các nước e bốn"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-087",
+      "group": "news_international",
+      "input": "các nước E3",
+      "config": {},
+      "accepted_readings": [
+        "các nước e ba"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-088",
+      "group": "news_international",
+      "input": "hội nghị thượng đỉnh G20",
+      "config": {},
+      "accepted_readings": [
+        "hội nghị thượng đỉnh gờ hai mươi"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-089",
+      "group": "news_international",
+      "input": "hội nghị COP30",
+      "config": {},
+      "accepted_readings": [
+        "hội nghị xê ô pê ba mươi"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần."
+    },
+    {
+      "id": "NEWS-090",
+      "group": "news_international",
+      "input": "G7",
+      "config": {},
+      "accepted_readings": [
+        "gờ bảy"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần."
+    },
+    {
+      "id": "NEWS-091",
+      "group": "news_international",
+      "input": "E4",
+      "config": {},
+      "accepted_readings": [
+        "e bốn"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần."
+    },
+    {
+      "id": "NEWS-092",
+      "group": "news_international",
+      "input": "nhóm G999",
+      "config": {},
+      "accepted_readings": [
+        "nhóm G999"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-093",
+      "group": "news_international",
+      "input": "nhóm G07",
+      "config": {},
+      "accepted_readings": [
+        "nhóm G07"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-094",
+      "group": "news_international",
+      "input": "các nước E40",
+      "config": {},
+      "accepted_readings": [
+        "các nước E40"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-095",
+      "group": "news_international",
+      "input": "nhóm G7X",
+      "config": {},
+      "accepted_readings": [
+        "nhóm gờ bảy ích"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần."
+    },
+    {
+      "id": "NEWS-096",
+      "group": "news_international",
+      "input": "COP30",
+      "config": {},
+      "accepted_readings": [
+        "C O P ba mươi"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-097",
+      "group": "news_terms",
+      "input": "GDP",
+      "config": {},
+      "accepted_readings": [
+        "G D P"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-098",
+      "group": "news_terms",
+      "input": "CPI",
+      "config": {},
+      "accepted_readings": [
+        "C P I"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-099",
+      "group": "news_terms",
+      "input": "PPI",
+      "config": {},
+      "accepted_readings": [
+        "P P I"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-100",
+      "group": "news_terms",
+      "input": "FDI",
+      "config": {},
+      "accepted_readings": [
+        "F D I"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-101",
+      "group": "news_terms",
+      "input": "ODA",
+      "config": {},
+      "accepted_readings": [
+        "O D A"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-102",
+      "group": "news_terms",
+      "input": "FTA",
+      "config": {},
+      "accepted_readings": [
+        "F T A"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-103",
+      "group": "news_terms",
+      "input": "WHO",
+      "config": {},
+      "accepted_readings": [
+        "W H O"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-104",
+      "group": "news_terms",
+      "input": "IMF",
+      "config": {},
+      "accepted_readings": [
+        "I M F"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-105",
+      "group": "news_terms",
+      "input": "EU",
+      "config": {},
+      "accepted_readings": [
+        "EU"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-106",
+      "group": "news_terms",
+      "input": "ASEAN",
+      "config": {},
+      "accepted_readings": [
+        "a xê an"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần."
+    },
+    {
+      "id": "NEWS-107",
+      "group": "news_terms",
+      "input": "NATO",
+      "config": {},
+      "accepted_readings": [
+        "na tô"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần."
+    },
+    {
+      "id": "NEWS-108",
+      "group": "news_terms",
+      "input": "OPEC",
+      "config": {},
+      "accepted_readings": [
+        "ô pếch"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần."
+    },
+    {
+      "id": "NEWS-109",
+      "group": "news_terms",
+      "input": "IAEA",
+      "config": {},
+      "accepted_readings": [
+        "I A E A"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-110",
+      "group": "news_terms",
+      "input": "UNICEF",
+      "config": {},
+      "accepted_readings": [
+        "u ni xép"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần."
+    },
+    {
+      "id": "NEWS-111",
+      "group": "news_terms",
+      "input": "UNESCO",
+      "config": {},
+      "accepted_readings": [
+        "u nét cô"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần."
+    },
+    {
+      "id": "NEWS-112",
+      "group": "news_terms",
+      "input": "ECB",
+      "config": {},
+      "accepted_readings": [
+        "E C B"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-113",
+      "group": "news_terms",
+      "input": "WTI",
+      "config": {},
+      "accepted_readings": [
+        "W T I"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-114",
+      "group": "news_terms",
+      "input": "chỉ số CPI",
+      "config": {},
+      "accepted_readings": [
+        "chỉ số C P I"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-115",
+      "group": "news_terms",
+      "input": "Quỹ IMF",
+      "config": {},
+      "accepted_readings": [
+        "Quỹ I M F"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-116",
+      "group": "news_terms",
+      "input": "tổ chức WHO",
+      "config": {},
+      "accepted_readings": [
+        "tổ chức W H O"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-117",
+      "group": "news_terms",
+      "input": "gdp",
+      "config": {},
+      "accepted_readings": [
+        "gdp"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-118",
+      "group": "news_terms",
+      "input": "imf",
+      "config": {},
+      "accepted_readings": [
+        "imf"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-119",
+      "group": "news_terms",
+      "input": "AI",
+      "config": {},
+      "accepted_readings": [
+        "AI"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-120",
+      "group": "news_terms",
+      "input": "CP",
+      "config": {},
+      "accepted_readings": [
+        "CP"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-121",
+      "group": "news_terms",
+      "input": "BS",
+      "config": {},
+      "accepted_readings": [
+        "BS"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-122",
+      "group": "news_terms",
+      "input": "BCS",
+      "config": {},
+      "accepted_readings": [
+        "B C S"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-123",
+      "group": "news_terms",
+      "input": "IMF123",
+      "config": {},
+      "accepted_readings": [
+        "I M F một trăm hai mươi ba"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-124",
+      "group": "news_terms",
+      "input": "WHO123",
+      "config": {},
+      "accepted_readings": [
+        "W H O một trăm hai mươi ba"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-125",
+      "group": "news_indexes",
+      "input": "VN-Index",
+      "config": {},
+      "accepted_readings": [
+        "vê nờ in đếch"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-126",
+      "group": "news_indexes",
+      "input": "HNX-Index",
+      "config": {},
+      "accepted_readings": [
+        "hắt nờ ích in đếch"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-127",
+      "group": "news_indexes",
+      "input": "UPCoM-Index",
+      "config": {},
+      "accepted_readings": [
+        "úp com in đếch"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-128",
+      "group": "news_indexes",
+      "input": "VN30",
+      "config": {},
+      "accepted_readings": [
+        "vê nờ ba mươi"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-129",
+      "group": "news_indexes",
+      "input": "HNX30",
+      "config": {},
+      "accepted_readings": [
+        "hắt nờ ích ba mươi"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-130",
+      "group": "news_indexes",
+      "input": "VN100",
+      "config": {},
+      "accepted_readings": [
+        "vê nờ một trăm"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-131",
+      "group": "news_indexes",
+      "input": "VN0123",
+      "config": {},
+      "accepted_readings": [
+        "V N không một hai ba"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-132",
+      "group": "news_indexes",
+      "input": "VN30X",
+      "config": {},
+      "accepted_readings": [
+        "V N ba mươi X"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-133",
+      "group": "news_indexes",
+      "input": "HNX999",
+      "config": {},
+      "accepted_readings": [
+        "H N X chín trăm chín mươi chín"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-134",
+      "group": "news_boundaries",
+      "input": "[nhóm G7; GDP; USD 20/thùng]",
+      "config": {},
+      "accepted_readings": [
+        "[nhóm G7; GDP; USD 20/thùng]"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-135",
+      "group": "news_boundaries",
+      "input": "`PM2.5 và COVID-19`",
+      "config": {},
+      "accepted_readings": [
+        "`PM2.5 và COVID-19`"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-136",
+      "group": "news_boundaries",
+      "input": "https://example.vn/GDP/USD20",
+      "config": {},
+      "accepted_readings": [
+        "https://example.vn/GDP/USD20"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-137",
+      "group": "news_boundaries",
+      "input": "<tag name=\"G7\" value=\"20\">",
+      "config": {},
+      "accepted_readings": [
+        "<tag name=\"G7\" value=\"20\">"
+      ],
+      "expected_action": "preserve",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-138",
+      "group": "news_boundaries",
+      "input": "GDP; WTI; PM2.5; nhóm G7",
+      "config": {
+        "enabled_domains": []
+      },
+      "accepted_readings": [
+        "G D P; W T I; P M hai chấm năm; nhóm gờ bảy"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-139",
+      "group": "news_boundaries",
+      "input": "GDP; PM2.5; nhóm G7",
+      "config": {
+        "abbreviation_overrides": {
+          "GDP": "gi đi pi",
+          "PM2.5": "bụi mịn",
+          "G7": "gi bảy"
+        }
+      },
+      "accepted_readings": [
+        "gi đi pi; bụi mịn; nhóm gi bảy"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-140",
+      "group": "news_money",
+      "input": "USD 2/thùng",
+      "config": {
+        "dollar_name": "đô la Mỹ"
+      },
+      "accepted_readings": [
+        "hai đô la Mỹ trên thùng"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-141",
+      "group": "news_money",
+      "input": "2 triệu USD/thùng",
+      "config": {
+        "unit_overrides": {
+          "USD/thùng": "đô la mỗi thùng"
+        }
+      },
+      "accepted_readings": [
+        "hai triệu đô la mỗi thùng"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-142",
+      "group": "news_money",
+      "input": "2 nghìn người",
+      "config": {
+        "thousand": "ngàn"
+      },
+      "accepted_readings": [
+        "hai ngàn người"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax."
+    },
+    {
+      "id": "NEWS-143",
+      "group": "news_money",
+      "input": "1,25 triệu USD",
+      "config": {
+        "decimal_reading": "cardinal"
+      },
+      "accepted_readings": [
+        "một phẩy hai mươi lăm triệu đô la Mỹ"
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: USD đọc là đô la Mỹ, viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-144",
+      "group": "news_paragraphs",
+      "input": "WHO ghi nhận 10–20 ca mới. H5N1 được giám sát; 1–2 triệu liều đã phân bổ.",
+      "config": {},
+      "accepted_readings": [
+        "W H O ghi nhận từ mười đến hai mươi ca mới. hắt năm nờ một được giám sát; từ một đến hai triệu liều đã phân bổ."
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: khoảng 'từ … đến', viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-145",
+      "group": "news_paragraphs",
+      "input": "Chỉ số CPI tăng 0,25 điểm %. Lãi suất giảm 25 bps; vốn FDI đạt 12–25 tỷ USD.",
+      "config": {},
+      "accepted_readings": [
+        "Chỉ số C P I tăng không phẩy hai mươi lăm điểm phần trăm. Lãi suất giảm hai mươi lăm điểm cơ bản; vốn F D I đạt từ mười hai đến hai mươi lăm tỷ đô la Mỹ."
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: khoảng 'từ … đến', viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-146",
+      "group": "news_paragraphs",
+      "input": "Gió cấp 6–7; lượng mưa 100–200 mm/24h. PM2.5 ở mức 35 µg/m³.",
+      "config": {},
+      "accepted_readings": [
+        "Gió cấp sáu đến bảy; lượng mưa từ một trăm đến hai trăm mi li mét trên hai mươi tư giờ. pê mờ hai chấm năm ở mức ba mươi lăm mi crô gam trên mét khối."
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: khoảng 'từ … đến'."
+    },
+    {
+      "id": "NEWS-147",
+      "group": "news_paragraphs",
+      "input": "Hội nghị G20 diễn ra trong quý I–II/2026. EU và IMF tham dự.",
+      "config": {},
+      "accepted_readings": [
+        "Hội nghị gờ hai mươi diễn ra trong quý một đến quý hai năm hai nghìn không trăm hai mươi sáu. EU và I M F tham dự."
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.10.0: chính sách viết tắt phổ biến + đánh vần. Cập nhật 0.11.0: lặp lại quý/tháng trong khoảng, viết tắt kiểu chữ Latin."
+    },
+    {
+      "id": "NEWS-148",
+      "group": "news_paragraphs",
+      "input": "VN-Index tăng; giao dịch 1–2 triệu cổ phiếu. WTI đạt USD 80–85/thùng.",
+      "config": {},
+      "accepted_readings": [
+        "vê nờ in đếch tăng; giao dịch từ một đến hai triệu cổ phiếu. W T I đạt từ tám mươi đến tám mươi lăm đô la Mỹ trên thùng."
+      ],
+      "expected_action": "expand",
+      "source": "Synthetic news-style regression, authored for grammar coverage; not a factual news report.",
+      "review_status": "proposed",
+      "rationale": "Read the explicit structure without changing quantities; preserve unsupported or ambiguous syntax. Cập nhật 0.11.0: USD đọc là đô la Mỹ, khoảng 'từ … đến', viết tắt kiểu chữ Latin."
+    }
+  ]
+}

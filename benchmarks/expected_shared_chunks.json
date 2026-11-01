@@ -1,0 +1,823 @@
+{
+  "normalizer": "Vietnamese TTS Normalizer",
+  "normalizer_version": "0.13.3",
+  "normalizer_module": "/data/sakai99/ai-data-02/daniez/OmniVoice/OmniVoice/norm/__init__.py",
+  "normalizer_tree_sha256": "8ce792fb709d7794fdba2098d9d7d7101303c6470492b8377f9bb2a8d7a07762",
+  "source_cases": "/data/sakai99/ai-data-02/sakai99/g_omnivoice_full_finetune_v2/eval17/danhgia_tts_cases.jsonl",
+  "source_cases_sha256": "0ac01072e61caacfe58e2e2cb710e93a1e10ab81aae0d7a394d1f75ea40b1d58",
+  "max_chars": 430,
+  "raw_target_chars": 330,
+  "text_count": 17,
+  "chunk_count": 101,
+  "content_sha256": "0879980c0099d1f448b416691ab1261ba1c3fc10c86098c8889962fb14c9bfe3",
+  "chunks": [
+    {
+      "text_id": "text_01",
+      "chunk_index": 1,
+      "chunk_id": "text_01_chunk_01",
+      "raw_chunk": "Tổng thống Hoa Kỳ Donald Trump ngày 14 tháng 9 đăng trên Truth Social rằng Ukraine và Nga đã đồng ý không tấn công các mục tiêu năng lượng của nhau.",
+      "tts_text": "Tổng thống Hoa Kỳ Donald Trump ngày mười bốn tháng chín đăng trên Truth Social rằng Ukraine và Nga đã đồng ý không tấn công các mục tiêu năng lượng của nhau.",
+      "tts_chars": 157
+    },
+    {
+      "text_id": "text_01",
+      "chunk_index": 2,
+      "chunk_id": "text_01_chunk_02",
+      "raw_chunk": "Ông viết rằng Ukraine đã đồng ý không tấn công các mục tiêu năng lượng của Nga và Nga cũng đã đồng ý làm như vậy, và cho rằng việc tăng giá diesel toàn cầu chủ yếu do chiến tranh Nga-Ukraine chứ không phải do Iran.",
+      "tts_text": "Ông viết rằng Ukraine đã đồng ý không tấn công các mục tiêu năng lượng của Nga và Nga cũng đã đồng ý làm như vậy, và cho rằng việc tăng giá diesel toàn cầu chủ yếu do chiến tranh Nga-Ukraine chứ không phải do Iran.",
+      "tts_chars": 214
+    },
+    {
+      "text_id": "text_01",
+      "chunk_index": 3,
+      "chunk_id": "text_01_chunk_03",
+      "raw_chunk": "Trump trước đó đã kêu gọi Tổng thống Ukraine Volodymyr Zelenskyy ngừng các cuộc tấn công vào các nhà máy lọc dầu diesel của Nga vì cho rằng điều này gây thiếu hụt nhiên liệu toàn cầu.",
+      "tts_text": "Trump trước đó đã kêu gọi Tổng thống Ukraine Volodymyr Zelenskyy ngừng các cuộc tấn công vào các nhà máy lọc dầu diesel của Nga vì cho rằng điều này gây thiếu hụt nhiên liệu toàn cầu.",
+      "tts_chars": 183
+    },
+    {
+      "text_id": "text_01",
+      "chunk_index": 4,
+      "chunk_id": "text_01_chunk_04",
+      "raw_chunk": "Tổng thống Ukraine Volodymyr Zelenskyy nói ông \"không thuyết phục\" rằng Nga sẽ tuân thủ thỏa thuận và cho biết Kyiv sẵn sàng tạm dừng các cuộc tấn công vào cơ sở hạ tầng năng lượng của Nga nếu các đối tác đảm bảo Nga cũng làm như vậy.",
+      "tts_text": "Tổng thống Ukraine Volodymyr Zelenskyy nói ông \"không thuyết phục\" rằng Nga sẽ tuân thủ thỏa thuận và cho biết Ki ép sẵn sàng tạm dừng các cuộc tấn công vào cơ sở hạ tầng năng lượng của Nga nếu các đối tác đảm bảo Nga cũng làm như vậy.",
+      "tts_chars": 235
+    },
+    {
+      "text_id": "text_01",
+      "chunk_index": 5,
+      "chunk_id": "text_01_chunk_05",
+      "raw_chunk": "Phát ngôn viên Điện Kremlin Dmitry Peskov của Nga hoan nghênh lời kêu gọi của ông Trump nhưng không khẳng định Nga sẽ ngừng tấn công cơ sở hạ tầng năng lượng của Ukraine.",
+      "tts_text": "Phát ngôn viên Điện Kremlin Dmitry Peskov của Nga hoan nghênh lời kêu gọi của ông Trump nhưng không khẳng định Nga sẽ ngừng tấn công cơ sở hạ tầng năng lượng của Ukraine.",
+      "tts_chars": 170
+    },
+    {
+      "text_id": "text_01",
+      "chunk_index": 6,
+      "chunk_id": "text_01_chunk_06",
+      "raw_chunk": "Đặc phái viên Hoa Kỳ Jared Kushner và Steve Witkoff đã thăm Moscow và Kyiv để tìm kiếm các thỏa thuận hạn chế, trong khi các lệnh ngừng bắn do Mỹ làm trung gian trước đó thường nhanh chóng sụp đổ.",
+      "tts_text": "Đặc phái viên Hoa Kỳ Jared Kushner và Steve Witkoff đã thăm Mát cơ va và Ki ép để tìm kiếm các thỏa thuận hạn chế, trong khi các lệnh ngừng bắn do Mỹ làm trung gian trước đó thường nhanh chóng sụp đổ.",
+      "tts_chars": 200
+    },
+    {
+      "text_id": "text_01",
+      "chunk_index": 7,
+      "chunk_id": "text_01_chunk_07",
+      "raw_chunk": "Bài đăng của ông Trump được đưa ra trong bối cảnh giá dầu và diesel tăng mạnh, với giá diesel trung bình tại Mỹ đạt khoảng 6,23 USD/gallon, và có ảnh hưởng đến chi phí nhiên liệu và lạm phát trước các cuộc bầu cử giữa kỳ ở Mỹ.",
+      "tts_text": "Bài đăng của ông Trump được đưa ra trong bối cảnh giá dầu và diesel tăng mạnh, với giá diesel trung bình tại Mỹ đạt khoảng sáu phẩy hai mươi ba đô la Mỹ trên ga lông, và có ảnh hưởng đến chi phí nhiên liệu và lạm phát trước các cuộc bầu cử giữa kỳ ở Mỹ.",
+      "tts_chars": 253
+    },
+    {
+      "text_id": "text_02",
+      "chunk_index": 1,
+      "chunk_id": "text_02_chunk_01",
+      "raw_chunk": "Ngày 13 tháng 9 tại New Delhi, Thủ tướng Ấn Độ Narendra Modi và Chủ tịch Trung Quốc Tập Cận Bình đã chủ động đề nghị cung cấp dịch vụ thiện chí để hỗ trợ tìm kiếm giải pháp cho xung đột Ukraine.",
+      "tts_text": "Ngày mười ba tháng chín tại New Delhi, Thủ tướng Ấn Độ Narendra Modi và Chủ tịch Trung Quốc Tập Cận Bình đã chủ động đề nghị cung cấp dịch vụ thiện chí để hỗ trợ tìm kiếm giải pháp cho xung đột Ukraine.",
+      "tts_chars": 202
+    },
+    {
+      "text_id": "text_02",
+      "chunk_index": 2,
+      "chunk_id": "text_02_chunk_02",
+      "raw_chunk": "Các đề nghị được nêu trong các cuộc trao đổi song phương với Tổng thống Nga Vladimir Putin bên lề hội nghị thượng đỉnh Nhóm BRICS đang diễn ra tại New Delhi. Phát ngôn viên Điện Kremlin của Nga, Dmitry Peskov, cho biết Putin hoan nghênh sự sẵn sàng của hai nhà lãnh đạo và đã trình bày chi tiết tình hình.",
+      "tts_text": "Các đề nghị được nêu trong các cuộc trao đổi song phương với Tổng thống Nga Vladimir Putin bên lề hội nghị thượng đỉnh Nhóm BRICS đang diễn ra tại New Delhi. Phát ngôn viên Điện Kremlin của Nga, Dmitry Peskov, cho biết Putin hoan nghênh sự sẵn sàng của hai nhà lãnh đạo và đã trình bày chi tiết tình hình.",
+      "tts_chars": 305
+    },
+    {
+      "text_id": "text_02",
+      "chunk_index": 3,
+      "chunk_id": "text_02_chunk_03",
+      "raw_chunk": "Trợ lý tổng thống Nga Yuri Ushakov nói chủ đề này là một trong những nội dung chính trong các cuộc gặp song phương của Putin tại hội nghị.",
+      "tts_text": "Trợ lý tổng thống Nga Yuri Ushakov nói chủ đề này là một trong những nội dung chính trong các cuộc gặp song phương của Putin tại hội nghị.",
+      "tts_chars": 138
+    },
+    {
+      "text_id": "text_02",
+      "chunk_index": 4,
+      "chunk_id": "text_02_chunk_04",
+      "raw_chunk": "Bài báo cũng nhắc lại rằng trong năm 2024 Putin đã nêu các điều kiện để chấm dứt xung đột, bao gồm yêu cầu Ukraine rút quân khỏi các khu vực như Donetsk, Luhansk, Kherson và Zaporizhzhia và từ bỏ kế hoạch gia nhập NATO.",
+      "tts_text": "Bài báo cũng nhắc lại rằng trong năm hai nghìn không trăm hai mươi tư Putin đã nêu các điều kiện để chấm dứt xung đột, bao gồm yêu cầu Ukraine rút quân khỏi các khu vực như Donetsk, Luhansk, Kherson và Zaporizhzhia và từ bỏ kế hoạch gia nhập na tô.",
+      "tts_chars": 248
+    },
+    {
+      "text_id": "text_02",
+      "chunk_index": 5,
+      "chunk_id": "text_02_chunk_05",
+      "raw_chunk": "Bài viết ghi nhận cuộc thảo luận giữa Putin và Modi ngày 11 tháng 9 tại Diễn đàn Doanh nghiệp BRICS về tình hình Biển Đen và cho biết không có cuộc gặp riêng giữa Putin và Tập Cận Bình tại hội nghị ở New Delhi.",
+      "tts_text": "Bài viết ghi nhận cuộc thảo luận giữa Putin và Modi ngày mười một tháng chín tại Diễn đàn Doanh nghiệp BRICS về tình hình Biển Đen và cho biết không có cuộc gặp riêng giữa Putin và Tập Cận Bình tại hội nghị ở New Delhi.",
+      "tts_chars": 219
+    },
+    {
+      "text_id": "text_02",
+      "chunk_index": 6,
+      "chunk_id": "text_02_chunk_06",
+      "raw_chunk": "Bài báo cũng nêu rằng hai lãnh đạo có thể trao đổi trong hậu trường và sẽ có cuộc đàm phán tại hội nghị APEC ngày 18-19 tháng 11 ở Thâm Quyến.",
+      "tts_text": "Bài báo cũng nêu rằng hai lãnh đạo có thể trao đổi trong hậu trường và sẽ có cuộc đàm phán tại hội nghị a pếch ngày mười tám đến mười chín tháng mười một ở Thâm Quyến.",
+      "tts_chars": 167
+    },
+    {
+      "text_id": "text_03",
+      "chunk_index": 1,
+      "chunk_id": "text_03_chunk_01",
+      "raw_chunk": "Ngày 14-15 tháng 9, lực lượng Houthi do Iran hậu thuẫn của Yemen đã phát động đợt tấn công mới nhằm vào Ả Rập Xê-út và củng cố vị trí dọc bờ biển phía tây Yemen.",
+      "tts_text": "Ngày mười bốn đến mười lăm tháng chín, lực lượng Houthi do Iran hậu thuẫn của Yemen đã phát động đợt tấn công mới nhằm vào Ả Rập Xê út và củng cố vị trí dọc bờ biển phía tây Yemen.",
+      "tts_chars": 180
+    },
+    {
+      "text_id": "text_03",
+      "chunk_index": 2,
+      "chunk_id": "text_03_chunk_02",
+      "raw_chunk": "Houthi cho biết đã phóng hàng chục tên lửa và máy bay không người lái vào căn cứ không quân Khamis Mushait ở miền nam Ả Rập Xê-út, khiến 13 dân thường bị thương và kích hoạt báo động khẩn cấp ở bốn thành phố phía nam.",
+      "tts_text": "Houthi cho biết đã phóng hàng chục tên lửa và máy bay không người lái vào căn cứ không quân Khamis Mushait ở miền nam Ả Rập Xê út, khiến mười ba dân thường bị thương và kích hoạt báo động khẩn cấp ở bốn thành phố phía nam.",
+      "tts_chars": 222
+    },
+    {
+      "text_id": "text_03",
+      "chunk_index": 3,
+      "chunk_id": "text_03_chunk_03",
+      "raw_chunk": "Các cuộc tiến công và việc chiếm đảo Perim đã gây áp lực lên xuất khẩu dầu của Ả Rập Xê-út sau khi một vụ tấn công trên không làm gián đoạn đường ống dầu dài 1.200 km, khiến giá dầu tăng và các cuộc đàm phán về Eo biển Hormuz bị hoãn. Oman hoãn cuộc họp dự kiến với Iran và các nước vùng Vịnh nhằm thảo luận về Eo biển Hormuz.",
+      "tts_text": "Các cuộc tiến công và việc chiếm đảo Perim đã gây áp lực lên xuất khẩu dầu của Ả Rập Xê út sau khi một vụ tấn công trên không làm gián đoạn đường ống dầu dài một nghìn hai trăm ki lô mét, khiến giá dầu tăng và các cuộc đàm phán về Eo biển Hormuz bị hoãn. Oman hoãn cuộc họp dự kiến với Iran và các nước vùng Vịnh nhằm thảo luận về Eo biển Hormuz.",
+      "tts_chars": 346
+    },
+    {
+      "text_id": "text_03",
+      "chunk_index": 4,
+      "chunk_id": "text_03_chunk_04",
+      "raw_chunk": "Tổng thống Hoa Kỳ Donald Trump cho biết Washington từ chối can thiệp quân sự trực tiếp ngoài hỗ trợ tình báo, trong khi Ả Rập Xê-út và Yemen tăng cường oanh kích. Iran tuyên bố đóng Eo biển Hormuz và các báo cáo mâu thuẫn về tàu chở dầu El Gaia cùng gián đoạn đường ống đã làm gia tăng bất ổn khu vực.",
+      "tts_text": "Tổng thống Hoa Kỳ Donald Trump cho biết Oa sinh tơn từ chối can thiệp quân sự trực tiếp ngoài hỗ trợ tình báo, trong khi Ả Rập Xê út và Yemen tăng cường oanh kích. Iran tuyên bố đóng Eo biển Hormuz và các báo cáo mâu thuẫn về tàu chở dầu El Gaia cùng gián đoạn đường ống đã làm gia tăng bất ổn khu vực.",
+      "tts_chars": 302
+    },
+    {
+      "text_id": "text_03",
+      "chunk_index": 5,
+      "chunk_id": "text_03_chunk_05",
+      "raw_chunk": "Tổ chức Di cư Quốc tế ước tính khoảng 82.000 người Yemen đã rời bỏ vùng chiến sự kể từ đầu tháng.",
+      "tts_text": "Tổ chức Di cư Quốc tế ước tính khoảng tám mươi hai nghìn người Yemen đã rời bỏ vùng chiến sự kể từ đầu tháng.",
+      "tts_chars": 109
+    },
+    {
+      "text_id": "text_04",
+      "chunk_index": 1,
+      "chunk_id": "text_04_chunk_01",
+      "raw_chunk": "Quốc hội Hàn Quốc khởi động \"siêu tuần\" gồm bảy phiên điều trần xác nhận nội các do Tổng thống Lee Jae-myung đề cử, bắt đầu từ thứ Hai.",
+      "tts_text": "Quốc hội Hàn Quốc khởi động \"siêu tuần\" gồm bảy phiên điều trần xác nhận nội các do Tổng thống Lee Jae myung đề cử, bắt đầu từ thứ Hai.",
+      "tts_chars": 135
+    },
+    {
+      "text_id": "text_04",
+      "chunk_index": 2,
+      "chunk_id": "text_04_chunk_02",
+      "raw_chunk": "Phiên đầu tiên là cho ứng viên Thẩm phán Tòa án Tối cao Kim Sung-soo, người phải đối mặt cáo buộc trốn thuế và bất thường trong giao dịch bất động sản liên quan đến hợp đồng jeonse; ông xin lỗi và cho biết đã bắt đầu nộp thuế quà tặng chậm.",
+      "tts_text": "Phiên đầu tiên là cho ứng viên Thẩm phán Tòa án Tối cao Kim Sung soo, người phải đối mặt cáo buộc trốn thuế và bất thường trong giao dịch bất động sản liên quan đến hợp đồng jeonse; ông xin lỗi và cho biết đã bắt đầu nộp thuế quà tặng chậm.",
+      "tts_chars": 240
+    },
+    {
+      "text_id": "text_04",
+      "chunk_index": 3,
+      "chunk_id": "text_04_chunk_03",
+      "raw_chunk": "Các phiên tiếp theo gồm thứ Ba cho ứng viên Bộ trưởng Tư pháp Kim Seung-won, Phó Thủ tướng kiêm Bộ trưởng Tài chính Lee Hyoung-il và Bộ trưởng Doanh nghiệp Nhỏ và Vừa Lee So-young; thứ Tư cho Bộ trưởng Quốc phòng Kang Shin-chul và Bộ trưởng Đất đai, Hạ tầng và Giao thông Hong Jee-sun;",
+      "tts_text": "Các phiên tiếp theo gồm thứ Ba cho ứng viên Bộ trưởng Tư pháp Kim Seung won, Phó Thủ tướng kiêm Bộ trưởng Tài chính Lee Hyoung il và Bộ trưởng Doanh nghiệp Nhỏ và Vừa Lee So young; thứ Tư cho Bộ trưởng Quốc phòng Kang Shin chul và Bộ trưởng Đất đai, Hạ tầng và Giao thông Hong Jee sun;",
+      "tts_chars": 285
+    },
+    {
+      "text_id": "text_04",
+      "chunk_index": 4,
+      "chunk_id": "text_04_chunk_04",
+      "raw_chunk": "và thứ Năm cho ứng viên thanh tra độc lập Choi Kil-su. Trước đó, ứng viên Bộ trưởng Bình đẳng giới Yong Hye-in đã từ chức vào Chủ nhật, cho biết đảng cầm quyền đã yêu cầu bà \"ra quyết định\" vì thiếu sự chấp nhận của công chúng.",
+      "tts_text": "và thứ Năm cho ứng viên thanh tra độc lập Choi Kil su. Trước đó, ứng viên Bộ trưởng Bình đẳng giới Yong Hye in đã từ chức vào Chủ nhật, cho biết đảng cầm quyền đã yêu cầu bà \"ra quyết định\" vì thiếu sự chấp nhận của công chúng.",
+      "tts_chars": 227
+    },
+    {
+      "text_id": "text_04",
+      "chunk_index": 5,
+      "chunk_id": "text_04_chunk_05",
+      "raw_chunk": "Đảng cầm quyền Dân chủ chỉ trích đối lập tập trung vào cáo buộc gây sốc thay vì đánh giá năng lực và khẳng định sẽ bảo vệ Kim Seung-won.",
+      "tts_text": "Đảng cầm quyền Dân chủ chỉ trích đối lập tập trung vào cáo buộc gây sốc thay vì đánh giá năng lực và khẳng định sẽ bảo vệ Kim Seung won.",
+      "tts_chars": 136
+    },
+    {
+      "text_id": "text_04",
+      "chunk_index": 6,
+      "chunk_id": "text_04_chunk_06",
+      "raw_chunk": "Đảng Nhân dân Quyền lực kêu gọi Kim Seung-won từ chức và yêu cầu Tổng thống Lee Jae-myung xin lỗi và rút đề cử, cáo buộc chính quyền đang thúc đẩy bổ nhiệm này nhằm xóa các cáo buộc hình sự đối với tổng thống sau khi ông rời nhiệm sở.",
+      "tts_text": "Đảng Nhân dân Quyền lực kêu gọi Kim Seung won từ chức và yêu cầu Tổng thống Lee Jae myung xin lỗi và rút đề cử, cáo buộc chính quyền đang thúc đẩy bổ nhiệm này nhằm xóa các cáo buộc hình sự đối với tổng thống sau khi ông rời nhiệm sở.",
+      "tts_chars": 234
+    },
+    {
+      "text_id": "text_04",
+      "chunk_index": 7,
+      "chunk_id": "text_04_chunk_07",
+      "raw_chunk": "Tổng thống Lee Jae-myung đang đối mặt áp lực khi các ứng viên gặp khó khăn trong quá trình xác nhận.",
+      "tts_text": "Tổng thống Lee Jae myung đang đối mặt áp lực khi các ứng viên gặp khó khăn trong quá trình xác nhận.",
+      "tts_chars": 100
+    },
+    {
+      "text_id": "text_05",
+      "chunk_index": 1,
+      "chunk_id": "text_05_chunk_01",
+      "raw_chunk": "Ngày 14 tháng 9 tại Bắc Kinh, Văn phòng Thông tin Quốc vụ viện tổ chức họp báo chính sách để giới thiệu công tác xử lý khó khăn trong thu hồi công nợ của doanh nghiệp vừa và nhỏ.",
+      "tts_text": "Ngày mười bốn tháng chín tại Bắc Kinh, Văn phòng Thông tin Quốc vụ viện tổ chức họp báo chính sách để giới thiệu công tác xử lý khó khăn trong thu hồi công nợ của doanh nghiệp vừa và nhỏ.",
+      "tts_chars": 187
+    },
+    {
+      "text_id": "text_05",
+      "chunk_index": 2,
+      "chunk_id": "text_05_chunk_02",
+      "raw_chunk": "Người phụ trách Cục Quản lý Tài chính và Vận hành thuộc Ủy ban Quản lý và Giám sát Tài sản Nhà nước của Quốc vụ viện Trung Quốc, Bối Nhân Toàn, cho biết các doanh nghiệp trung ương sẽ tích cực huy động vốn để đảm bảo thanh toán kịp thời cho doanh nghiệp vừa và nhỏ.",
+      "tts_text": "Người phụ trách Cục Quản lý Tài chính và Vận hành thuộc Ủy ban Quản lý và Giám sát Tài sản Nhà nước của Quốc vụ viện Trung Quốc, Bối Nhân Toàn, cho biết các doanh nghiệp trung ương sẽ tích cực huy động vốn để đảm bảo thanh toán kịp thời cho doanh nghiệp vừa và nhỏ.",
+      "tts_chars": 265
+    },
+    {
+      "text_id": "text_05",
+      "chunk_index": 3,
+      "chunk_id": "text_05_chunk_03",
+      "raw_chunk": "Ông Bối Nhân Toàn nhấn mạnh việc ưu tiên thanh toán bằng tiền mặt, duy trì tỷ lệ thanh toán tiền mặt hợp lý, nghiêm ngặt quản lý chứng từ và cấm mở chứng từ mới có thời hạn trên 6 tháng.",
+      "tts_text": "Ông Bối Nhân Toàn nhấn mạnh việc ưu tiên thanh toán bằng tiền mặt, duy trì tỷ lệ thanh toán tiền mặt hợp lý, nghiêm ngặt quản lý chứng từ và cấm mở chứng từ mới có thời hạn trên sáu tháng.",
+      "tts_chars": 188
+    },
+    {
+      "text_id": "text_05",
+      "chunk_index": 4,
+      "chunk_id": "text_05_chunk_04",
+      "raw_chunk": "Thông báo do Văn phòng Quốc vụ viện ban hành đề ra 10 biện pháp, yêu cầu quy định kỳ hạn thanh toán hợp lý, giới hạn kỳ hạn thanh toán cho doanh nghiệp vừa và nhỏ ở mức 60 ngày và kêu gọi doanh nghiệp dẫn đầu thực hiện cam kết thanh toán trong 60 ngày.",
+      "tts_text": "Thông báo do Văn phòng Quốc vụ viện ban hành đề ra mười biện pháp, yêu cầu quy định kỳ hạn thanh toán hợp lý, giới hạn kỳ hạn thanh toán cho doanh nghiệp vừa và nhỏ ở mức sáu mươi ngày và kêu gọi doanh nghiệp dẫn đầu thực hiện cam kết thanh toán trong sáu mươi ngày.",
+      "tts_chars": 266
+    },
+    {
+      "text_id": "text_05",
+      "chunk_index": 5,
+      "chunk_id": "text_05_chunk_05",
+      "raw_chunk": "Phó bộ trưởng Bộ Công nghiệp và Công nghệ Thông tin Trung Quốc, Ke Jixin, nêu ra biện pháp hoàn thiện quy tắc thanh toán ngành, yêu cầu phân ngành xác định kỳ hạn thanh toán hợp lý và ban hành quy định thanh toán phù hợp với thực tế ngành.",
+      "tts_text": "Phó bộ trưởng Bộ Công nghiệp và Công nghệ Thông tin Trung Quốc, Ke Jixin, nêu ra biện pháp hoàn thiện quy tắc thanh toán ngành, yêu cầu phân ngành xác định kỳ hạn thanh toán hợp lý và ban hành quy định thanh toán phù hợp với thực tế ngành.",
+      "tts_chars": 239
+    },
+    {
+      "text_id": "text_05",
+      "chunk_index": 6,
+      "chunk_id": "text_05_chunk_06",
+      "raw_chunk": "Ông Ke Jixin cũng đề xuất làm rõ \"bốn yếu tố then chốt của việc thanh toán\" và phát động sáng kiến các doanh nghiệp lớn thanh toán kịp thời, đồng thời cho biết theo khảo sát ngành kỳ hạn thanh toán trung bình của các doanh nghiệp ô tô trọng điểm đã được cải thiện và tỷ lệ thanh toán bằng chứng từ điện tử giảm rõ rệt.",
+      "tts_text": "Ông Ke Jixin cũng đề xuất làm rõ \"bốn yếu tố then chốt của việc thanh toán\" và phát động sáng kiến các doanh nghiệp lớn thanh toán kịp thời, đồng thời cho biết theo khảo sát ngành kỳ hạn thanh toán trung bình của các doanh nghiệp ô tô trọng điểm đã được cải thiện và tỷ lệ thanh toán bằng chứng từ điện tử giảm rõ rệt.",
+      "tts_chars": 318
+    },
+    {
+      "text_id": "text_05",
+      "chunk_index": 7,
+      "chunk_id": "text_05_chunk_07",
+      "raw_chunk": "Bộ Công nghiệp và Công nghệ Thông tin cùng Tổng cục Quản lý Thị trường đã ban hành thông báo về việc thúc đẩy doanh nghiệp ô tô quy phạm thanh toán cho nhà cung cấp, làm rõ yêu cầu về thời điểm bắt đầu kỳ hạn, nghiệm thu và thanh toán, thiết lập cơ chế giám sát,",
+      "tts_text": "Bộ Công nghiệp và Công nghệ Thông tin cùng Tổng cục Quản lý Thị trường đã ban hành thông báo về việc thúc đẩy doanh nghiệp ô tô quy phạm thanh toán cho nhà cung cấp, làm rõ yêu cầu về thời điểm bắt đầu kỳ hạn, nghiệm thu và thanh toán, thiết lập cơ chế giám sát,",
+      "tts_chars": 262
+    },
+    {
+      "text_id": "text_05",
+      "chunk_index": 8,
+      "chunk_id": "text_05_chunk_08",
+      "raw_chunk": "kiểm tra định kỳ và sẽ tăng cường giám sát liên ngành để yêu cầu doanh nghiệp có quy mô nợ phải trả lớn, cố ý kéo dài kỳ hạn hoặc bị khiếu nại nhiều sửa đổi.",
+      "tts_text": "kiểm tra định kỳ và sẽ tăng cường giám sát liên ngành để yêu cầu doanh nghiệp có quy mô nợ phải trả lớn, cố ý kéo dài kỳ hạn hoặc bị khiếu nại nhiều sửa đổi.",
+      "tts_chars": 157
+    },
+    {
+      "text_id": "text_06",
+      "chunk_index": 1,
+      "chunk_id": "text_06_chunk_01",
+      "raw_chunk": "Thị trưởng Zohran Mamdani và Tổng chưởng lý bang Tish James của Hoa Kỳ cùng 21 tổng chưởng lý bang khác đang kiện chính quyền Tổng thống Donald J. Trump của Hoa Kỳ về việc siết chặt quy định \"public charge\".",
+      "tts_text": "Thị trưởng Zohran Mamdani và Tổng chưởng lý bang Tish James của Hoa Kỳ cùng hai mươi mốt tổng chưởng lý bang khác đang kiện chính quyền Tổng thống Donald J. Trump của Hoa Kỳ về việc siết chặt quy định \"public charge\".",
+      "tts_chars": 217
+    },
+    {
+      "text_id": "text_06",
+      "chunk_index": 2,
+      "chunk_id": "text_06_chunk_02",
+      "raw_chunk": "Bài báo cho rằng quy định này yêu cầu người nhập cư mới không được trở nên \"phụ thuộc chủ yếu\" vào chính phủ, và trích dẫn lịch sử Ellis Island những năm 1880 để phản bác việc chính quyền Trump thay đổi truyền thống đó.",
+      "tts_text": "Bài báo cho rằng quy định này yêu cầu người nhập cư mới không được trở nên \"phụ thuộc chủ yếu\" vào chính phủ, và trích dẫn lịch sử Ellis Island những năm một nghìn tám trăm tám mươi để phản bác việc chính quyền Trump thay đổi truyền thống đó.",
+      "tts_chars": 242
+    },
+    {
+      "text_id": "text_06",
+      "chunk_index": 3,
+      "chunk_id": "text_06_chunk_03",
+      "raw_chunk": "Tác giả cáo buộc các nhà lãnh đạo Dân chủ đã định nghĩa lại \"dependency\" dưới thời Tổng thống Joe Biden của Hoa Kỳ, cho phép người nhận 100% hỗ trợ từ chính phủ không bị coi là public charge. Bài viết kết luận rằng việc cho phép nhập cư để tiếp cận các chương trình phúc lợi là sai trái và phản ánh tư tưởng cực đoan.",
+      "tts_text": "Tác giả cáo buộc các nhà lãnh đạo Dân chủ đã định nghĩa lại \"dependency\" dưới thời Tổng thống Joe Biden của Hoa Kỳ, cho phép người nhận một trăm phần trăm hỗ trợ từ chính phủ không bị coi là public charge. Bài viết kết luận rằng việc cho phép nhập cư để tiếp cận các chương trình phúc lợi là sai trái và phản ánh tư tưởng cực đoan.",
+      "tts_chars": 331
+    },
+    {
+      "text_id": "text_07",
+      "chunk_index": 1,
+      "chunk_id": "text_07_chunk_01",
+      "raw_chunk": "Các nhà nghiên cứu tại Anthropic của Mỹ cảnh báo rằng các mô hình AI ngày càng mạnh có thể thoát khỏi kiểm soát của con người và thậm chí dẫn tới tuyệt chủng, cảnh báo này đã thu hút sự chú ý ở Trung Quốc.",
+      "tts_text": "Các nhà nghiên cứu tại Anthropic của Mỹ cảnh báo rằng các mô hình AI ngày càng mạnh có thể thoát khỏi kiểm soát của con người và thậm chí dẫn tới tuyệt chủng, cảnh báo này đã thu hút sự chú ý ở Trung Quốc.",
+      "tts_chars": 205
+    },
+    {
+      "text_id": "text_07",
+      "chunk_index": 2,
+      "chunk_id": "text_07_chunk_02",
+      "raw_chunk": "Bộ trưởng An ninh Nhà nước Trung Quốc Trần Nhất Tân viết trên tạp chí China Cyberspace rằng các mô hình tiên tiến của Mỹ như Mythos của Anthropic và GPT-5.5-Cyber của OpenAI có thể đe dọa cơ sở hạ tầng thông tin quan trọng của Trung Quốc và kêu gọi tăng cường an ninh AI.",
+      "tts_text": "Bộ trưởng An ninh Nhà nước Trung Quốc Trần Nhất Tân viết trên tạp chí China Cyberspace rằng các mô hình tiên tiến của Mỹ như Mythos của Anthropic và G P T năm chấm năm Cyber của Open AI có thể đe dọa cơ sở hạ tầng thông tin quan trọng của Trung Quốc và kêu gọi tăng cường an ninh AI.",
+      "tts_chars": 283
+    },
+    {
+      "text_id": "text_07",
+      "chunk_index": 3,
+      "chunk_id": "text_07_chunk_03",
+      "raw_chunk": "Ông Trần Nhất Tân cũng cảnh báo về rủi ro an ninh tư tưởng, rò rỉ dữ liệu, tấn công mạng, deepfake và việc AI có thể được lợi dụng để tiến hành chiến tranh nhận thức và thu thập thông tin nhạy cảm.",
+      "tts_text": "Ông Trần Nhất Tân cũng cảnh báo về rủi ro an ninh tư tưởng, rò rỉ dữ liệu, tấn công mạng, deepfake và việc AI có thể được lợi dụng để tiến hành chiến tranh nhận thức và thu thập thông tin nhạy cảm.",
+      "tts_chars": 197
+    },
+    {
+      "text_id": "text_07",
+      "chunk_index": 4,
+      "chunk_id": "text_07_chunk_04",
+      "raw_chunk": "Cơ quan Quản lý Không gian mạng Trung Quốc đã đưa vào khung an toàn AI tháng 9/2024 kịch bản mất kiểm soát và mở rộng khung này tháng 9/2025, đồng thời áp dụng nguyên tắc \"ứng dụng đáng tin cậy, ngăn mất kiểm soát\".",
+      "tts_text": "Cơ quan Quản lý Không gian mạng Trung Quốc đã đưa vào khung an toàn AI tháng chín năm hai nghìn không trăm hai mươi tư kịch bản mất kiểm soát và mở rộng khung này tháng chín năm hai nghìn không trăm hai mươi lăm, đồng thời áp dụng nguyên tắc \"ứng dụng đáng tin cậy, ngăn mất kiểm soát\".",
+      "tts_chars": 286
+    },
+    {
+      "text_id": "text_07",
+      "chunk_index": 5,
+      "chunk_id": "text_07_chunk_05",
+      "raw_chunk": "Trung Quốc ban hành hướng dẫn tháng 5 yêu cầu nhà phát triển cải thiện khả năng phát hiện, can thiệp và phục hồi hành vi sai của tác nhân AI, cho phép đánh giá an toàn độc lập và kiểm toán mô hình mở.",
+      "tts_text": "Trung Quốc ban hành hướng dẫn tháng năm yêu cầu nhà phát triển cải thiện khả năng phát hiện, can thiệp và phục hồi hành vi sai của tác nhân AI, cho phép đánh giá an toàn độc lập và kiểm toán mô hình mở.",
+      "tts_chars": 202
+    },
+    {
+      "text_id": "text_07",
+      "chunk_index": 6,
+      "chunk_id": "text_07_chunk_06",
+      "raw_chunk": "Tổng bí thư, Chủ tịch Trung Quốc Tập Cận Bình tại Hội nghị AI Thế giới ở Thượng Hải tháng 7 nhấn mạnh AI phải luôn nằm dưới kiểm soát của con người.",
+      "tts_text": "Tổng bí thư, Chủ tịch Trung Quốc Tập Cận Bình tại Hội nghị AI Thế giới ở Thượng Hải tháng bảy nhấn mạnh AI phải luôn nằm dưới kiểm soát của con người.",
+      "tts_chars": 150
+    },
+    {
+      "text_id": "text_07",
+      "chunk_index": 7,
+      "chunk_id": "text_07_chunk_07",
+      "raw_chunk": "Các quan chức và chuyên gia Trung Quốc kêu gọi thận trọng với AI quân sự, thúc đẩy mô hình trọng lượng mở để kiểm tra an ninh nhưng cũng cảnh báo rủi ro khi các mô hình này có thể bị sửa đổi và phân phối ít giám sát.",
+      "tts_text": "Các quan chức và chuyên gia Trung Quốc kêu gọi thận trọng với AI quân sự, thúc đẩy mô hình trọng lượng mở để kiểm tra an ninh nhưng cũng cảnh báo rủi ro khi các mô hình này có thể bị sửa đổi và phân phối ít giám sát.",
+      "tts_chars": 216
+    },
+    {
+      "text_id": "text_08",
+      "chunk_index": 1,
+      "chunk_id": "text_08_chunk_01",
+      "raw_chunk": "Tòa án Tối cao Hoa Kỳ hôm thứ Hai bác yêu cầu của Tổng thống Donald J. Trump nhằm hạn chế phiếu bầu qua thư trước cuộc bầu cử giữa nhiệm kỳ tháng 11.",
+      "tts_text": "Tòa án Tối cao Hoa Kỳ hôm thứ Hai bác yêu cầu của Tổng thống Donald J. Trump nhằm hạn chế phiếu bầu qua thư trước cuộc bầu cử giữa nhiệm kỳ tháng mười một.",
+      "tts_chars": 155
+    },
+    {
+      "text_id": "text_08",
+      "chunk_index": 2,
+      "chunk_id": "text_08_chunk_02",
+      "raw_chunk": "Phán quyết cho phép các bang tiếp tục gửi phiếu bầu qua thư theo quy trình cũ, trong khi chính quyền Trump yêu cầu các bang dùng phong bì thống nhất và nộp danh sách cử tri lên cổng trực tuyến để Dịch vụ Bưu chính có thể từ chối giao phiếu nếu không tuân thủ. Thẩm phán Samuel A.",
+      "tts_text": "Phán quyết cho phép các bang tiếp tục gửi phiếu bầu qua thư theo quy trình cũ, trong khi chính quyền Trump yêu cầu các bang dùng phong bì thống nhất và nộp danh sách cử tri lên cổng trực tuyến để Dịch vụ Bưu chính có thể từ chối giao phiếu nếu không tuân thủ. Thẩm phán Samuel A.",
+      "tts_chars": 279
+    },
+    {
+      "text_id": "text_08",
+      "chunk_index": 3,
+      "chunk_id": "text_08_chunk_03",
+      "raw_chunk": "Alito, Jr. và Clarence Thomas phản đối, còn Thẩm phán Brett M. Kavanaugh đồng ý không áp dụng hạn chế cho cuộc bầu cử giữa nhiệm kỳ nhưng để ngỏ khả năng ủng hộ chính quyền sau này.",
+      "tts_text": "Alito, Jr. và Clarence Thomas phản đối, còn Thẩm phán Brett M. Kavanaugh đồng ý không áp dụng hạn chế cho cuộc bầu cử giữa nhiệm kỳ nhưng để ngỏ khả năng ủng hộ chính quyền sau này.",
+      "tts_chars": 181
+    },
+    {
+      "text_id": "text_08",
+      "chunk_index": 4,
+      "chunk_id": "text_08_chunk_04",
+      "raw_chunk": "Các quan chức bang thuộc đảng Dân chủ và nhóm bảo vệ quyền bầu cử đã kiện, cho rằng tổng thống không có thẩm quyền và việc thay đổi hệ thống trong vài tuần trước bầu cử là không khả thi. Một báo cáo của người tố giác cảnh báo hệ thống cổng trực tuyến chưa hoàn thiện và lỗi mã vạch có thể khiến hàng triệu phiếu không được gửi.",
+      "tts_text": "Các quan chức bang thuộc đảng Dân chủ và nhóm bảo vệ quyền bầu cử đã kiện, cho rằng tổng thống không có thẩm quyền và việc thay đổi hệ thống trong vài tuần trước bầu cử là không khả thi. Một báo cáo của người tố giác cảnh báo hệ thống cổng trực tuyến chưa hoàn thiện và lỗi mã vạch có thể khiến hàng triệu phiếu không được gửi.",
+      "tts_chars": 327
+    },
+    {
+      "text_id": "text_08",
+      "chunk_index": 5,
+      "chunk_id": "text_08_chunk_05",
+      "raw_chunk": "Nhiều tòa án cấp dưới, trong đó có Thẩm phán Liên bang Indira Talwani tại Boston và Thẩm phán Carl Nichols tại Washington, D.C., đã ra lệnh tạm đình chỉ các yêu cầu này. Một số bang như Alabama, North Carolina và Wisconsin đã bắt đầu gửi phiếu qua thư trong khi kế hoạch chưa có hiệu lực.",
+      "tts_text": "Nhiều tòa án cấp dưới, trong đó có Thẩm phán Liên bang Indira Talwani tại Boston và Thẩm phán Carl Nichols tại Oa sinh tơn, D.C., đã ra lệnh tạm đình chỉ các yêu cầu này. Một số bang như Alabama, North Carolina và Wisconsin đã bắt đầu gửi phiếu qua thư trong khi kế hoạch chưa có hiệu lực.",
+      "tts_chars": 289
+    },
+    {
+      "text_id": "text_09",
+      "chunk_index": 1,
+      "chunk_id": "text_09_chunk_01",
+      "raw_chunk": "Thủ tướng Đức Friedrich Merz hôm 14 tháng 9 tại Rovaniemi, Phần Lan, tuyên bố chính phủ ông sẽ tiếp tục làm mọi việc có thể để hỗ trợ Ukraine trong cuộc chiến chống lại cuộc xâm lược.",
+      "tts_text": "Thủ tướng Đức Friedrich Merz hôm mười bốn tháng chín tại Rovaniemi, Phần Lan, tuyên bố chính phủ ông sẽ tiếp tục làm mọi việc có thể để hỗ trợ Ukraine trong cuộc chiến chống lại cuộc xâm lược.",
+      "tts_chars": 192
+    },
+    {
+      "text_id": "text_09",
+      "chunk_index": 2,
+      "chunk_id": "text_09_chunk_02",
+      "raw_chunk": "Ông cảnh báo cuộc chiến có thể bước vào những tuần hoặc tháng quyết định và nhấn mạnh châu Âu cần duy trì hỗ trợ cho Kyiv cho đến khi kết thúc chiến tranh.",
+      "tts_text": "Ông cảnh báo cuộc chiến có thể bước vào những tuần hoặc tháng quyết định và nhấn mạnh châu Âu cần duy trì hỗ trợ cho Ki ép cho đến khi kết thúc chiến tranh.",
+      "tts_chars": 156
+    },
+    {
+      "text_id": "text_09",
+      "chunk_index": 3,
+      "chunk_id": "text_09_chunk_03",
+      "raw_chunk": "Merz cho biết Đức sẽ tăng cường bảo vệ lãnh thổ và cơ sở hạ tầng quan trọng trước các cuộc tấn công hỗn hợp và dự kiến thay đổi luật pháp điều chỉnh hoạt động của các cơ quan an ninh.",
+      "tts_text": "Merz cho biết Đức sẽ tăng cường bảo vệ lãnh thổ và cơ sở hạ tầng quan trọng trước các cuộc tấn công hỗn hợp và dự kiến thay đổi luật pháp điều chỉnh hoạt động của các cơ quan an ninh.",
+      "tts_chars": 183
+    },
+    {
+      "text_id": "text_09",
+      "chunk_index": 4,
+      "chunk_id": "text_09_chunk_04",
+      "raw_chunk": "Ông cũng kêu gọi thành lập hạm đội tàu phá băng chung cho các nước phía bắc và cho biết Đức, là nhà tài trợ lớn nhất cho Ukraine, đang chuẩn bị tài trợ mới, trong đó có 60 triệu euro cho nhu cầu nhân đạo.",
+      "tts_text": "Ông cũng kêu gọi thành lập hạm đội tàu phá băng chung cho các nước phía bắc và cho biết Đức, là nhà tài trợ lớn nhất cho Ukraine, đang chuẩn bị tài trợ mới, trong đó có sáu mươi triệu ơ rô cho nhu cầu nhân đạo.",
+      "tts_chars": 210
+    },
+    {
+      "text_id": "text_09",
+      "chunk_index": 5,
+      "chunk_id": "text_09_chunk_05",
+      "raw_chunk": "Merz thừa nhận chỉ trích về việc tài trợ cho Kyiv đang ảnh hưởng tới cử tri của đảng cực hữu Alternative for Germany (AfD) sau khi đảng này giành thắng lợi ở bang Saxony-Anhalt ngày 21 tháng 9. Ông khẳng định sẽ giữ quyền lực và không lùi bước trước nguy cơ hậu quả không lường trước nếu Nga thành công.",
+      "tts_text": "Merz thừa nhận chỉ trích về việc tài trợ cho Ki ép đang ảnh hưởng tới cử tri của đảng cực hữu Alternative for Germany (AfD) sau khi đảng này giành thắng lợi ở bang Saxony-Anhalt ngày hai mươi mốt tháng chín. Ông khẳng định sẽ giữ quyền lực và không lùi bước trước nguy cơ hậu quả không lường trước nếu Nga thành công.",
+      "tts_chars": 317
+    },
+    {
+      "text_id": "text_09",
+      "chunk_index": 6,
+      "chunk_id": "text_09_chunk_06",
+      "raw_chunk": "Thủ tướng Latvia Andris Kulsbergs cho rằng nhờ Ukraine mà phần còn lại của châu Âu có thời gian chuẩn bị nhưng thời gian đó đang bị sử dụng sai cách, và Thủ tướng Ba Lan Donald Tusk cảnh báo những tuần và tháng tới sẽ là giai đoạn hành động rất tích cực của Nga và không thể loại trừ các cuộc tấn công nghiêm trọng hơn trên lãnh",
+      "tts_text": "Thủ tướng Latvia Andris Kulsbergs cho rằng nhờ Ukraine mà phần còn lại của châu Âu có thời gian chuẩn bị nhưng thời gian đó đang bị sử dụng sai cách, và Thủ tướng Ba Lan Donald Tusk cảnh báo những tuần và tháng tới sẽ là giai đoạn hành động rất tích cực của Nga và không thể loại trừ các cuộc tấn công nghiêm trọng hơn trên lãnh",
+      "tts_chars": 328
+    },
+    {
+      "text_id": "text_09",
+      "chunk_index": 7,
+      "chunk_id": "text_09_chunk_07",
+      "raw_chunk": "thổ Ba Lan.",
+      "tts_text": "thổ Ba Lan.",
+      "tts_chars": 11
+    },
+    {
+      "text_id": "text_10",
+      "chunk_index": 1,
+      "chunk_id": "text_10_chunk_01",
+      "raw_chunk": "Nhà vua Vương quốc Thái Lan Maha Vajiralongkorn và Hoàng hậu sẽ thăm cấp Nhà nước tới Việt Nam từ ngày 14 đến 16/9/2026 theo lời mời của Tổng Bí thư, Chủ tịch nước Tô Lâm.",
+      "tts_text": "Nhà vua Vương quốc Thái Lan Maha Vajiralongkorn và Hoàng hậu sẽ thăm cấp Nhà nước tới Việt Nam từ ngày mười bốn đến mười sáu tháng chín năm hai nghìn không trăm hai mươi sáu theo lời mời của Tổng Bí thư, Chủ tịch nước Tô Lâm.",
+      "tts_chars": 225
+    },
+    {
+      "text_id": "text_10",
+      "chunk_index": 2,
+      "chunk_id": "text_10_chunk_02",
+      "raw_chunk": "Chuyến thăm diễn ra trong bối cảnh hai nước kỷ niệm 50 năm thiết lập quan hệ ngoại giao (6/8/1976-6/8 /2026) và quan hệ đã được nâng cấp lên Đối tác Chiến lược Toàn diện vào tháng 5/2025.",
+      "tts_text": "Chuyến thăm diễn ra trong bối cảnh hai nước kỷ niệm năm mươi năm thiết lập quan hệ ngoại giao (từ sáu tháng tám năm một nghìn chín trăm bảy mươi sáu đến sáu tháng tám năm hai nghìn không trăm hai mươi sáu) và quan hệ đã được nâng cấp lên Đối tác Chiến lược Toàn diện vào tháng năm năm hai nghìn không trăm hai mươi lăm.",
+      "tts_chars": 319
+    },
+    {
+      "text_id": "text_10",
+      "chunk_index": 3,
+      "chunk_id": "text_10_chunk_03",
+      "raw_chunk": "Trong ba ngày, hai vị sẽ đặt vòng hoa tại Đài tưởng niệm liệt sĩ Bắc Sơn và Lăng Chủ tịch Hồ Chí Minh, tham dự lễ đón chính thức, gặp Tô Lâm, tiếp kiến Thủ tướng Lê Minh Hưng và Chủ tịch Quốc hội Trần Thanh Mẫn, dự tiệc chiêu đãi tại Phủ Toàn quyền và thăm các địa điểm văn hóa như chùa Ngọc Sơn,",
+      "tts_text": "Trong ba ngày, hai vị sẽ đặt vòng hoa tại Đài tưởng niệm liệt sĩ Bắc Sơn và Lăng Chủ tịch Hồ Chí Minh, tham dự lễ đón chính thức, gặp Tô Lâm, tiếp kiến Thủ tướng Lê Minh Hưng và Chủ tịch Quốc hội Trần Thanh Mẫn, dự tiệc chiêu đãi tại Phủ Toàn quyền và thăm các địa điểm văn hóa như chùa Ngọc Sơn,",
+      "tts_chars": 296
+    },
+    {
+      "text_id": "text_10",
+      "chunk_index": 4,
+      "chunk_id": "text_10_chunk_04",
+      "raw_chunk": "chùa Quán Sứ và Trung tâm Văn hóa Thái tại Đại học Hà Nội.",
+      "tts_text": "chùa Quán Sứ và Trung tâm Văn hóa Thái tại Đại học Hà Nội.",
+      "tts_chars": 58
+    },
+    {
+      "text_id": "text_10",
+      "chunk_index": 5,
+      "chunk_id": "text_10_chunk_05",
+      "raw_chunk": "Đoàn tháp tùng gồm Thủ tướng, Bộ trưởng tháp tùng Anutin Charnvirakul của Thái Lan, Đại sứ Thái Lan tại Việt Nam Urawadee Sriphiromya, Tổng Thư ký Văn phòng Hoàng gia, Thư ký của Nhà vua, Tướng Không quân Satitpong Sukvimol, Phó Tổng Thư ký Hoàng gia, Trung tá Somchai Kanjanamanee cùng các sĩ quan tuỳ tùng.",
+      "tts_text": "Đoàn tháp tùng gồm Thủ tướng, Bộ trưởng tháp tùng Anutin Charnvirakul của Thái Lan, Đại sứ Thái Lan tại Việt Nam Urawadee Sriphiromya, Tổng Thư ký Văn phòng Hoàng gia, Thư ký của Nhà vua, Tướng Không quân Satitpong Sukvimol, Phó Tổng Thư ký Hoàng gia, Trung tá Somchai Kanjanamanee cùng các sĩ quan tuỳ tùng.",
+      "tts_chars": 308
+    },
+    {
+      "text_id": "text_10",
+      "chunk_index": 6,
+      "chunk_id": "text_10_chunk_06",
+      "raw_chunk": "Chuyến thăm được đánh giá là dấu mốc lịch sử, lần đầu tiên một quốc vương Thái Lan thăm chính thức Việt Nam kể từ khi hai nước thiết lập quan hệ ngoại giao năm 1976, và dự kiến mở ra chương mới cho 50 năm tiếp theo của quan hệ song phương.",
+      "tts_text": "Chuyến thăm được đánh giá là dấu mốc lịch sử, lần đầu tiên một quốc vương Thái Lan thăm chính thức Việt Nam kể từ khi hai nước thiết lập quan hệ ngoại giao năm một nghìn chín trăm bảy mươi sáu, và dự kiến mở ra chương mới cho năm mươi năm tiếp theo của quan hệ song phương.",
+      "tts_chars": 273
+    },
+    {
+      "text_id": "text_10",
+      "chunk_index": 7,
+      "chunk_id": "text_10_chunk_07",
+      "raw_chunk": "Hai bên sẽ thúc đẩy hợp tác trên các lĩnh vực chính trị, kinh tế, quốc phòng-an ninh, du lịch, lao động và giáo dục, trong đó hợp tác kinh tế được nêu là điểm sáng với Thái Lan là đối tác thương mại lớn nhất của Việt Nam trong ASEAN và kim ngạch thương mại hai chiều năm 2025 đạt 22,1 tỷ USD.",
+      "tts_text": "Hai bên sẽ thúc đẩy hợp tác trên các lĩnh vực chính trị, kinh tế, quốc phòng-an ninh, du lịch, lao động và giáo dục, trong đó hợp tác kinh tế được nêu là điểm sáng với Thái Lan là đối tác thương mại lớn nhất của Việt Nam trong a xê an và kim ngạch thương mại hai chiều năm hai nghìn không trăm hai mươi lăm đạt hai mươi hai phẩy một tỷ đô la Mỹ.",
+      "tts_chars": 345
+    },
+    {
+      "text_id": "text_10",
+      "chunk_index": 8,
+      "chunk_id": "text_10_chunk_08",
+      "raw_chunk": "Các hoạt động hợp tác khác được đề cập gồm kết nối kinh tế, chương trình hành động triển khai quan hệ Đối tác chiến lược toàn diện giai đoạn 2026-2031, các cơ chế như Ủy ban hỗn hợp Thương mại và Diễn đàn Năng lượng,",
+      "tts_text": "Các hoạt động hợp tác khác được đề cập gồm kết nối kinh tế, chương trình hành động triển khai quan hệ Đối tác chiến lược toàn diện giai đoạn hai nghìn không trăm hai mươi sáu đến hai nghìn không trăm ba mươi mốt, các cơ chế như Ủy ban hỗn hợp Thương mại và Diễn đàn Năng lượng,",
+      "tts_chars": 277
+    },
+    {
+      "text_id": "text_10",
+      "chunk_index": 9,
+      "chunk_id": "text_10_chunk_09",
+      "raw_chunk": "cùng các dự án giao lưu văn hóa và hỗ trợ bảo tồn di tích liên quan đến Chủ tịch Hồ Chí Minh và phố Việt Nam tại tỉnh Udon Thani.",
+      "tts_text": "cùng các dự án giao lưu văn hóa và hỗ trợ bảo tồn di tích liên quan đến Chủ tịch Hồ Chí Minh và phố Việt Nam tại tỉnh Udon Thani.",
+      "tts_chars": 129
+    },
+    {
+      "text_id": "text_11",
+      "chunk_index": 1,
+      "chunk_id": "text_11_chunk_01",
+      "raw_chunk": "Thượng nghị sĩ Tim Kaine (D-Va.) hôm thứ Tư kêu gọi chính quyền Trump nhanh chóng chấm dứt các hoạt động quân sự của Mỹ chống Iran, gọi cuộc xung đột là \"ba lần bất hợp pháp\" sau khi Hạ viện thông qua ba nghị quyết về quyền chiến tranh.",
+      "tts_text": "Thượng nghị sĩ Tim Kaine (D-Va.) hôm thứ Tư kêu gọi chính quyền Trump nhanh chóng chấm dứt các hoạt động quân sự của Mỹ chống Iran, gọi cuộc xung đột là \"ba lần bất hợp pháp\" sau khi Hạ viện thông qua ba nghị quyết về quyền chiến tranh.",
+      "tts_chars": 236
+    },
+    {
+      "text_id": "text_11",
+      "chunk_index": 2,
+      "chunk_id": "text_11_chunk_02",
+      "raw_chunk": "Ông cho biết Thượng viện đã thông qua một nghị quyết do ông đề xuất hồi tháng Sáu và có khả năng thông qua một nghị quyết khác sớm, trong khi bốn thượng nghị sĩ Cộng hòa đã bỏ phiếu ủng hộ nghị quyết đầu tiên.",
+      "tts_text": "Ông cho biết Thượng viện đã thông qua một nghị quyết do ông đề xuất hồi tháng Sáu và có khả năng thông qua một nghị quyết khác sớm, trong khi bốn thượng nghị sĩ Cộng hòa đã bỏ phiếu ủng hộ nghị quyết đầu tiên.",
+      "tts_chars": 209
+    },
+    {
+      "text_id": "text_11",
+      "chunk_index": 3,
+      "chunk_id": "text_11_chunk_03",
+      "raw_chunk": "Kaine thừa nhận chính quyền Trump kháng cự áp lực công chúng và nói rằng ông không nghĩ tổng thống sẽ tự chấm dứt chiến tranh. Chủ tịch Hạ viện Hoa Kỳ Mike Johnson kêu gọi \"một giải pháp\" cho cuộc chiến ở Iran, cho rằng chiến dịch Epic Fury đã thành công nhưng cần kết thúc xung đột và không yêu cầu chấm dứt ngay lập tức.",
+      "tts_text": "Kaine thừa nhận chính quyền Trump kháng cự áp lực công chúng và nói rằng ông không nghĩ tổng thống sẽ tự chấm dứt chiến tranh. Chủ tịch Hạ viện Hoa Kỳ Mike Johnson kêu gọi \"một giải pháp\" cho cuộc chiến ở Iran, cho rằng chiến dịch Epic Fury đã thành công nhưng cần kết thúc xung đột và không yêu cầu chấm dứt ngay lập tức.",
+      "tts_chars": 322
+    },
+    {
+      "text_id": "text_11",
+      "chunk_index": 4,
+      "chunk_id": "text_11_chunk_04",
+      "raw_chunk": "Đại diện Hoa Kỳ Ashley Hinson (R-Iowa), ứng cử viên Thượng viện, kêu gọi tạm dừng thuế xăng liên bang và ngừng xuất khẩu dầu diesel để hạ giá tiêu dùng.",
+      "tts_text": "Đại diện Hoa Kỳ Ashley Hinson (R-Iowa), ứng cử viên Thượng viện, kêu gọi tạm dừng thuế xăng liên bang và ngừng xuất khẩu dầu diesel để hạ giá tiêu dùng.",
+      "tts_chars": 152
+    },
+    {
+      "text_id": "text_11",
+      "chunk_index": 5,
+      "chunk_id": "text_11_chunk_05",
+      "raw_chunk": "Lãnh đạo phe thiểu số Hạ viện Hoa Kỳ Hakeem Jeffries (D-N.Y.) chỉ trích các nghị sĩ Cộng hòa đang kêu gọi kết thúc chiến tranh vì áp lực trước cuộc bầu cử giữa kỳ, trong khi Đảng Dân chủ nhấn mạnh mối liên hệ giữa xung đột và tăng giá nhiên liệu.",
+      "tts_text": "Lãnh đạo phe thiểu số Hạ viện Hoa Kỳ Hakeem Jeffries (D-N.Y.) chỉ trích các nghị sĩ Cộng hòa đang kêu gọi kết thúc chiến tranh vì áp lực trước cuộc bầu cử giữa kỳ, trong khi Đảng Dân chủ nhấn mạnh mối liên hệ giữa xung đột và tăng giá nhiên liệu.",
+      "tts_chars": 246
+    },
+    {
+      "text_id": "text_11",
+      "chunk_index": 6,
+      "chunk_id": "text_11_chunk_06",
+      "raw_chunk": "Bài báo cũng nêu các chỉ trích về thương vong của binh sĩ Mỹ, việc đóng cửa Eo biển Hormuz làm tăng giá năng lượng toàn cầu và giá xăng ở Mỹ tăng lên khoảng $4,47/gallon.",
+      "tts_text": "Bài báo cũng nêu các chỉ trích về thương vong của binh sĩ Mỹ, việc đóng cửa Eo biển Hormuz làm tăng giá năng lượng toàn cầu và giá xăng ở Mỹ tăng lên khoảng bốn phẩy bốn mươi bảy đô la trên ga lông.",
+      "tts_chars": 198
+    },
+    {
+      "text_id": "text_12",
+      "chunk_index": 1,
+      "chunk_id": "text_12_chunk_01",
+      "raw_chunk": "Chủ tịch Trung Quốc Tập Cận Bình đã tới Washington ngày 23/9/2026 để bắt đầu chuyến thăm nhà nước ba ngày. Tổng thống Hoa Kỳ Donald Trump cùng phu nhân Melania Trump đã ra sân bay Joint Base Andrews để đón ông Tập, một nghi thức hiếm khi được tổ chức.",
+      "tts_text": "Chủ tịch Trung Quốc Tập Cận Bình đã tới Oa sinh tơn ngày hai mươi ba tháng chín năm hai nghìn không trăm hai mươi sáu để bắt đầu chuyến thăm nhà nước ba ngày. Tổng thống Hoa Kỳ Donald Trump cùng phu nhân Melania Trump đã ra sân bay Joint Base Andrews để đón ông Tập, một nghi thức hiếm khi được tổ chức.",
+      "tts_chars": 303
+    },
+    {
+      "text_id": "text_12",
+      "chunk_index": 2,
+      "chunk_id": "text_12_chunk_02",
+      "raw_chunk": "Đệ nhất phu nhân Hoa Kỳ Melania Trump và phu nhân Trung Quốc Bành Lệ Viện tham gia nghi lễ đón tiếp, bao gồm duyệt binh, màn bay của máy bay và bữa tối nhà nước tại Nhà Trắng vào tối 24/9.",
+      "tts_text": "Đệ nhất phu nhân Hoa Kỳ Melania Trump và phu nhân Trung Quốc Bành Lệ Viện tham gia nghi lễ đón tiếp, bao gồm duyệt binh, màn bay của máy bay và bữa tối nhà nước tại Nhà Trắng vào tối hai mươi tư tháng chín.",
+      "tts_chars": 206
+    },
+    {
+      "text_id": "text_12",
+      "chunk_index": 3,
+      "chunk_id": "text_12_chunk_03",
+      "raw_chunk": "Chương trình còn gồm buổi trà riêng, tham quan National Archives và các cuộc họp song phương nhằm thảo luận thương mại, trí tuệ nhân tạo, vấn đề Đài Loan và Iran.",
+      "tts_text": "Chương trình còn gồm buổi trà riêng, tham quan National Archives và các cuộc họp song phương nhằm thảo luận thương mại, trí tuệ nhân tạo, vấn đề Đài Loan và Iran.",
+      "tts_chars": 162
+    },
+    {
+      "text_id": "text_12",
+      "chunk_index": 4,
+      "chunk_id": "text_12_chunk_04",
+      "raw_chunk": "Chuyến thăm diễn ra trong bối cảnh căng thẳng về thương mại, khi thỏa thuận ngừng chiến thương mại 11 tháng sẽ hết hạn ngày 10/11, và có thể đạt một số thỏa thuận hẹp hơn về thuế quan ngành, chống buôn bán ma túy và mở rộng liên lạc quân sự.",
+      "tts_text": "Chuyến thăm diễn ra trong bối cảnh căng thẳng về thương mại, khi thỏa thuận ngừng chiến thương mại mười một tháng sẽ hết hạn ngày mười tháng mười một, và có thể đạt một số thỏa thuận hẹp hơn về thuế quan ngành, chống buôn bán ma túy và mở rộng liên lạc quân sự.",
+      "tts_chars": 261
+    },
+    {
+      "text_id": "text_12",
+      "chunk_index": 5,
+      "chunk_id": "text_12_chunk_05",
+      "raw_chunk": "Một số quan chức và nghị sĩ, trong đó có Thượng nghị sĩ Roger Wicker, chỉ trích việc đón tiếp quá mức, trong khi Ngoại trưởng Hoa Kỳ Marco Rubio khẳng định hai nước cần tương tác ở cấp cao. Các lãnh đạo công nghệ như Jensen Huang, Sam Altman và Elon Musk được cho là sẽ tham dự bữa tối nhà nước.",
+      "tts_text": "Một số quan chức và nghị sĩ, trong đó có Thượng nghị sĩ Roger Wicker, chỉ trích việc đón tiếp quá mức, trong khi Ngoại trưởng Hoa Kỳ Marco Rubio khẳng định hai nước cần tương tác ở cấp cao. Các lãnh đạo công nghệ như Jensen Huang, Sam Altman và Elon Musk được cho là sẽ tham dự bữa tối nhà nước.",
+      "tts_chars": 295
+    },
+    {
+      "text_id": "text_13",
+      "chunk_index": 1,
+      "chunk_id": "text_13_chunk_01",
+      "raw_chunk": "Tổng thống lâm thời Venezuela Delcy Rodriguez phát biểu trước Đại hội đồng Liên Hợp Quốc tại New York ngày 23 tháng 9 rằng Venezuela sẽ tổ chức bầu cử như một phần của quá trình chuyển tiếp tới \"dân chủ toàn diện\".",
+      "tts_text": "Tổng thống lâm thời Venezuela Delcy Rodriguez phát biểu trước Đại hội đồng Liên Hợp Quốc tại New York ngày hai mươi ba tháng chín rằng Venezuela sẽ tổ chức bầu cử như một phần của quá trình chuyển tiếp tới \"dân chủ toàn diện\".",
+      "tts_chars": 226
+    },
+    {
+      "text_id": "text_13",
+      "chunk_index": 2,
+      "chunk_id": "text_13_chunk_02",
+      "raw_chunk": "Bà không nêu ngày cụ thể cho cuộc bầu cử và cho biết chính phủ đã khởi động đối thoại với các lực lượng đối lập để đảm bảo điều kiện bình đẳng. Bà cam kết các cơ quan quốc gia sẽ được chuẩn bị để bảo đảm một quá trình bao trùm và minh bạch khi thời điểm đến. Rodriguez đã gặp Tổng thống Hoa Kỳ Donald J.",
+      "tts_text": "Bà không nêu ngày cụ thể cho cuộc bầu cử và cho biết chính phủ đã khởi động đối thoại với các lực lượng đối lập để đảm bảo điều kiện bình đẳng. Bà cam kết các cơ quan quốc gia sẽ được chuẩn bị để bảo đảm một quá trình bao trùm và minh bạch khi thời điểm đến. Rodriguez đã gặp Tổng thống Hoa Kỳ Donald J.",
+      "tts_chars": 303
+    },
+    {
+      "text_id": "text_13",
+      "chunk_index": 3,
+      "chunk_id": "text_13_chunk_03",
+      "raw_chunk": "Trump bên lề Đại hội đồng vào ngày 22 tháng 9; hai bên thảo luận việc tái cấu trúc hàng tỷ USD nợ công của Venezuela. Bà cảm ơn Tổng thống Trump vì thiện chí tái khởi động quan hệ và nói Venezuela đang \"tái sinh\" sau những tổn thất trong năm nay.",
+      "tts_text": "Trump bên lề Đại hội đồng vào ngày hai mươi hai tháng chín; hai bên thảo luận việc tái cấu trúc hàng tỷ đô la Mỹ nợ công của Venezuela. Bà cảm ơn Tổng thống Trump vì thiện chí tái khởi động quan hệ và nói Venezuela đang \"tái sinh\" sau những tổn thất trong năm nay.",
+      "tts_chars": 264
+    },
+    {
+      "text_id": "text_13",
+      "chunk_index": 4,
+      "chunk_id": "text_13_chunk_04",
+      "raw_chunk": "Bà lên nắm quyền sau một cuộc đột kích của quân đội Hoa Kỳ vào tháng 1 đã bắt giữ Tổng thống Venezuela Nicolás Maduro và đưa ông sang Hoa Kỳ; Maduro hiện bị giam gần trụ sở Liên Hợp Quốc chờ xét xử. Bài phát biểu của bà cũng gây tranh cãi khi có các cuộc biểu tình phản đối ở Caracas và New York.",
+      "tts_text": "Bà lên nắm quyền sau một cuộc đột kích của quân đội Hoa Kỳ vào tháng một đã bắt giữ Tổng thống Venezuela Nicolás Maduro và đưa ông sang Hoa Kỳ; Maduro hiện bị giam gần trụ sở Liên Hợp Quốc chờ xét xử. Bài phát biểu của bà cũng gây tranh cãi khi có các cuộc biểu tình phản đối ở Caracas và New York.",
+      "tts_chars": 298
+    },
+    {
+      "text_id": "text_14",
+      "chunk_index": 1,
+      "chunk_id": "text_14_chunk_01",
+      "raw_chunk": "Tổng Bí thư, Chủ tịch nước Tô Lâm của Việt Nam đã gặp Tổng Thư ký Liên Hợp Quốc António Guterres tại trụ sở Liên Hợp Quốc ở New York, Mỹ, ngày 23 tháng 9 trong khuôn khổ tuần cấp cao của kỳ họp thứ 81 Đại hội đồng Liên Hợp Quốc.",
+      "tts_text": "Tổng Bí thư, Chủ tịch nước Tô Lâm của Việt Nam đã gặp Tổng Thư ký Liên Hợp Quốc António Guterres tại trụ sở Liên Hợp Quốc ở New York, Mỹ, ngày hai mươi ba tháng chín trong khuôn khổ tuần cấp cao của kỳ họp thứ tám mươi mốt Đại hội đồng Liên Hợp Quốc.",
+      "tts_chars": 250
+    },
+    {
+      "text_id": "text_14",
+      "chunk_index": 2,
+      "chunk_id": "text_14_chunk_02",
+      "raw_chunk": "Tại cuộc gặp, Tổng Thư ký Guterres bày tỏ ngưỡng mộ trước thành tựu phát triển của Việt Nam sau 40 năm Đổi mới và kêu gọi Việt Nam tiếp tục tham gia mạnh mẽ vào chuyển đổi năng lượng công bằng (JETP) và thúc đẩy các công nghệ mới nổi như trí tuệ nhân tạo.",
+      "tts_text": "Tại cuộc gặp, Tổng Thư ký Guterres bày tỏ ngưỡng mộ trước thành tựu phát triển của Việt Nam sau bốn mươi năm Đổi mới và kêu gọi Việt Nam tiếp tục tham gia mạnh mẽ vào chuyển đổi năng lượng công bằng (J E T P) và thúc đẩy các công nghệ mới nổi như trí tuệ nhân tạo.",
+      "tts_chars": 264
+    },
+    {
+      "text_id": "text_14",
+      "chunk_index": 3,
+      "chunk_id": "text_14_chunk_03",
+      "raw_chunk": "Tô Lâm nhấn mạnh định hướng phát triển bền vững, khẳng định chính sách đối ngoại độc lập, tự chủ, đa phương hóa và nêu các cam kết cụ thể của Việt Nam với Liên Hợp Quốc.",
+      "tts_text": "Tô Lâm nhấn mạnh định hướng phát triển bền vững, khẳng định chính sách đối ngoại độc lập, tự chủ, đa phương hóa và nêu các cam kết cụ thể của Việt Nam với Liên Hợp Quốc.",
+      "tts_chars": 169
+    },
+    {
+      "text_id": "text_14",
+      "chunk_index": 4,
+      "chunk_id": "text_14_chunk_04",
+      "raw_chunk": "Việt Nam cam kết tiếp tục tham gia gìn giữ hòa bình, cho thuê trụ sở Liên Hợp Quốc tại Hà Nội miễn phí trong 10 năm tới với giá trị ước tính 3 triệu USD và đóng góp gần 1,3 triệu USD cho ngân sách gìn giữ hòa bình. Hai bên nhất trí triển khai Khung hợp tác chiến lược giai đoạn 2027-2031 và tăng cường hợp tác ASEAN-Liên Hợp Quốc.",
+      "tts_text": "Việt Nam cam kết tiếp tục tham gia gìn giữ hòa bình, cho thuê trụ sở Liên Hợp Quốc tại Hà Nội miễn phí trong mười năm tới với giá trị ước tính ba triệu đô la Mỹ và đóng góp gần một phẩy ba triệu đô la Mỹ cho ngân sách gìn giữ hòa bình. Hai bên nhất trí triển khai Khung hợp tác chiến lược giai đoạn hai nghìn không trăm hai mươi bảy đến hai nghìn không trăm ba mươi mốt và tăng cường hợp tác a xê an-Liên Hợp Quốc.",
+      "tts_chars": 414
+    },
+    {
+      "text_id": "text_14",
+      "chunk_index": 5,
+      "chunk_id": "text_14_chunk_05",
+      "raw_chunk": "Hai bên cũng cùng ủng hộ vai trò trung tâm của ASEAN và bảo đảm an ninh, an toàn, tự do hàng hải theo Công ước Liên Hợp Quốc về Luật Biển 1982.",
+      "tts_text": "Hai bên cũng cùng ủng hộ vai trò trung tâm của a xê an và bảo đảm an ninh, an toàn, tự do hàng hải theo Công ước Liên Hợp Quốc về Luật Biển một nghìn chín trăm tám mươi hai.",
+      "tts_chars": 173
+    },
+    {
+      "text_id": "text_15",
+      "chunk_index": 1,
+      "chunk_id": "text_15_chunk_01",
+      "raw_chunk": "Bộ trưởng Tài chính Hoa Kỳ Scott Bessent cho biết Hoa Kỳ và Trung Quốc đã đồng ý gia hạn lệnh ngừng chiến thương mại thêm hai tháng, kéo dài đến ngày 10 tháng 1 năm 2027.",
+      "tts_text": "Bộ trưởng Tài chính Hoa Kỳ Scott Bessent cho biết Hoa Kỳ và Trung Quốc đã đồng ý gia hạn lệnh ngừng chiến thương mại thêm hai tháng, kéo dài đến ngày mười tháng một năm hai nghìn không trăm hai mươi bảy.",
+      "tts_chars": 203
+    },
+    {
+      "text_id": "text_15",
+      "chunk_index": 2,
+      "chunk_id": "text_15_chunk_02",
+      "raw_chunk": "Thông báo được đưa ra sau các cuộc đàm phán giữa Bessent và Phó thủ tướng Trung Quốc Hà Lập Phong tại New York ngày 20 tháng 9 và tại Washington ngày 23 tháng 9.",
+      "tts_text": "Thông báo được đưa ra sau các cuộc đàm phán giữa Bessent và Phó thủ tướng Trung Quốc Hà Lập Phong tại New York ngày hai mươi tháng chín và tại Oa sinh tơn ngày hai mươi ba tháng chín.",
+      "tts_chars": 183
+    },
+    {
+      "text_id": "text_15",
+      "chunk_index": 3,
+      "chunk_id": "text_15_chunk_03",
+      "raw_chunk": "Quyết định được công bố ngay trước chuyến thăm của Chủ tịch Trung Quốc Tập Cận Bình tới Hoa Kỳ ngày 24 tháng 9 để tham dự hội nghị thượng đỉnh với Tổng thống Hoa Kỳ Donald Trump.",
+      "tts_text": "Quyết định được công bố ngay trước chuyến thăm của Chủ tịch Trung Quốc Tập Cận Bình tới Hoa Kỳ ngày hai mươi tư tháng chín để tham dự hội nghị thượng đỉnh với Tổng thống Hoa Kỳ Donald Trump.",
+      "tts_chars": 190
+    },
+    {
+      "text_id": "text_15",
+      "chunk_index": 4,
+      "chunk_id": "text_15_chunk_04",
+      "raw_chunk": "Bessent nói việc gia hạn nhằm có thêm thời gian để đàm phán một thỏa thuận thương mại lớn hơn và hai bên đã thảo luận khả năng giảm thuế quan đối với khoảng 30 tỷ USD hàng hóa không nhạy cảm.",
+      "tts_text": "Bessent nói việc gia hạn nhằm có thêm thời gian để đàm phán một thỏa thuận thương mại lớn hơn và hai bên đã thảo luận khả năng giảm thuế quan đối với khoảng ba mươi tỷ đô la Mỹ hàng hóa không nhạy cảm.",
+      "tts_chars": 201
+    },
+    {
+      "text_id": "text_15",
+      "chunk_index": 5,
+      "chunk_id": "text_15_chunk_05",
+      "raw_chunk": "Ông cũng nêu Trung Quốc đang đáp ứng cam kết mua 25 triệu tấn đậu tương nhưng chậm tiến độ trong cam kết mua 17 tỷ USD hàng nông sản khác và việc giao đất hiếm bị trì hoãn. Hai bên đã nhất trí thiết lập đường dây nóng để thông báo các sự cố liên quan an toàn trí tuệ nhân tạo.",
+      "tts_text": "Ông cũng nêu Trung Quốc đang đáp ứng cam kết mua hai mươi lăm triệu tấn đậu tương nhưng chậm tiến độ trong cam kết mua mười bảy tỷ đô la Mỹ hàng nông sản khác và việc giao đất hiếm bị trì hoãn. Hai bên đã nhất trí thiết lập đường dây nóng để thông báo các sự cố liên quan an toàn trí tuệ nhân tạo.",
+      "tts_chars": 297
+    },
+    {
+      "text_id": "text_15",
+      "chunk_index": 6,
+      "chunk_id": "text_15_chunk_06",
+      "raw_chunk": "Một số bản tin gọi thỏa thuận tạm ngừng này là \"Hiệp định Busan\" và cho biết quyết định nhằm duy trì khung hiện tại trong chuyến thăm của Tập Cận Bình và đầu năm 2027.",
+      "tts_text": "Một số bản tin gọi thỏa thuận tạm ngừng này là \"Hiệp định Busan\" và cho biết quyết định nhằm duy trì khung hiện tại trong chuyến thăm của Tập Cận Bình và đầu năm hai nghìn không trăm hai mươi bảy.",
+      "tts_chars": 196
+    },
+    {
+      "text_id": "text_16",
+      "chunk_index": 1,
+      "chunk_id": "text_16_chunk_01",
+      "raw_chunk": "Ngày 23 tháng 9 năm 2026 tại Đại hội đồng Liên Hợp Quốc ở New York, Tổng thống Ukraine Volodymyr Zelenskyy kêu gọi các nhà lãnh đạo thế giới tiếp tục siết chặt các biện pháp trừng phạt kinh tế nhằm vào Nga và ngăn chặn nguồn thu tài trợ cho chiến tranh.",
+      "tts_text": "Ngày hai mươi ba tháng chín năm hai nghìn không trăm hai mươi sáu tại Đại hội đồng Liên Hợp Quốc ở New York, Tổng thống Ukraine Volodymyr Zelenskyy kêu gọi các nhà lãnh đạo thế giới tiếp tục siết chặt các biện pháp trừng phạt kinh tế nhằm vào Nga và ngăn chặn nguồn thu tài trợ cho chiến tranh.",
+      "tts_chars": 294
+    },
+    {
+      "text_id": "text_16",
+      "chunk_index": 2,
+      "chunk_id": "text_16_chunk_02",
+      "raw_chunk": "Ông gọi Tổng thống Nga Vladimir Putin là \"bệnh nhân số không\" và cáo buộc Moscow sử dụng công dân của 47 nước làm binh sĩ thứ ba, nêu ví dụ về công dân từ Ghana, Nepal và Ấn Độ.",
+      "tts_text": "Ông gọi Tổng thống Nga Vladimir Putin là \"bệnh nhân số không\" và cáo buộc Mát cơ va sử dụng công dân của bốn mươi bảy nước làm binh sĩ thứ ba, nêu ví dụ về công dân từ Ghana, Nepal và Ấn Độ.",
+      "tts_chars": 190
+    },
+    {
+      "text_id": "text_16",
+      "chunk_index": 3,
+      "chunk_id": "text_16_chunk_03",
+      "raw_chunk": "Zelenskyy cho biết hai binh sĩ Triều Tiên đã bị bắt và được chuyển sang Hàn Quốc, đồng thời cảnh báo về quan hệ quốc phòng ngày càng tăng giữa Nga và Triều Tiên.",
+      "tts_text": "Zelenskyy cho biết hai binh sĩ Triều Tiên đã bị bắt và được chuyển sang Hàn Quốc, đồng thời cảnh báo về quan hệ quốc phòng ngày càng tăng giữa Nga và Triều Tiên.",
+      "tts_chars": 161
+    },
+    {
+      "text_id": "text_16",
+      "chunk_index": 4,
+      "chunk_id": "text_16_chunk_04",
+      "raw_chunk": "Ông công bố các thỏa thuận công nghệ máy bay không người lái với Phần Lan, thỏa thuận an ninh với Australia và đang chuẩn bị với Canada, đồng thời cảnh báo lực lượng Ukraine có thể nhắm vào cơ sở năng lượng và sưởi ấm của Nga trong mùa đông này.",
+      "tts_text": "Ông công bố các thỏa thuận công nghệ máy bay không người lái với Phần Lan, thỏa thuận an ninh với Australia và đang chuẩn bị với Canada, đồng thời cảnh báo lực lượng Ukraine có thể nhắm vào cơ sở năng lượng và sưởi ấm của Nga trong mùa đông này.",
+      "tts_chars": 245
+    },
+    {
+      "text_id": "text_16",
+      "chunk_index": 5,
+      "chunk_id": "text_16_chunk_05",
+      "raw_chunk": "Zelenskyy nêu rằng trong tám tháng qua Nga đã mất khoảng 248.000 binh sĩ và chiếm hơn 1.000 km² lãnh thổ Ukraine, và cho biết Ukraine vừa thực hiện cuộc tấn công sâu nhất vào lãnh thổ Nga, nhắm vào hai cơ sở ngưng tụ khí ở vùng cực hơn 3.000 km từ biên giới.",
+      "tts_text": "Zelenskyy nêu rằng trong tám tháng qua Nga đã mất khoảng hai trăm bốn mươi tám nghìn binh sĩ và chiếm hơn một nghìn ki lô mét vuông lãnh thổ Ukraine, và cho biết Ukraine vừa thực hiện cuộc tấn công sâu nhất vào lãnh thổ Nga, nhắm vào hai cơ sở ngưng tụ khí ở vùng cực hơn ba nghìn ki lô mét từ biên giới.",
+      "tts_chars": 304
+    },
+    {
+      "text_id": "text_16",
+      "chunk_index": 6,
+      "chunk_id": "text_16_chunk_06",
+      "raw_chunk": "Bài phát biểu được đưa ra trong bối cảnh các cuộc không kích của Nga gây thương vong ở Ukraine và Ngoại trưởng Nga Sergey Lavrov nói với Hội đồng Bảo an rằng Moscow sẵn sàng đàm phán nhưng sẽ không tạm dừng chiến tranh.",
+      "tts_text": "Bài phát biểu được đưa ra trong bối cảnh các cuộc không kích của Nga gây thương vong ở Ukraine và Ngoại trưởng Nga Sergey Lavrov nói với Hội đồng Bảo an rằng Mát cơ va sẵn sàng đàm phán nhưng sẽ không tạm dừng chiến tranh.",
+      "tts_chars": 222
+    },
+    {
+      "text_id": "text_16",
+      "chunk_index": 7,
+      "chunk_id": "text_16_chunk_07",
+      "raw_chunk": "Một số bản tin cũng đề cập tới các biện pháp trừng phạt của Hoa Kỳ do Tổng thống Donald Trump ký và thông tin về khả năng đàm phán ngừng bắn hạn chế từ phía Nga và Mỹ.",
+      "tts_text": "Một số bản tin cũng đề cập tới các biện pháp trừng phạt của Hoa Kỳ do Tổng thống Donald Trump ký và thông tin về khả năng đàm phán ngừng bắn hạn chế từ phía Nga và Mỹ.",
+      "tts_chars": 167
+    },
+    {
+      "text_id": "text_17",
+      "chunk_index": 1,
+      "chunk_id": "text_17_chunk_01",
+      "raw_chunk": "Thủ tướng Nhật Bản Takaichi Sanae đã hội đàm với Tổng thống Ukraine Volodymyr Zelenskyy tại trụ sở Liên Hợp Quốc ở New York vào ngày 22 (giờ Nhật Bản 23). Bà Takaichi nhấn mạnh rằng các nước cần đoàn kết để hỗ trợ Ukraine và tiếp tục áp dụng các biện pháp trừng phạt đối với Nga vì hành vi xâm lược.",
+      "tts_text": "Thủ tướng Nhật Bản Takaichi Sanae đã hội đàm với Tổng thống Ukraine Volodymyr Zelenskyy tại trụ sở Liên Hợp Quốc ở New York vào ngày hai mươi hai (giờ Nhật Bản hai mươi ba). Bà Takaichi nhấn mạnh rằng các nước cần đoàn kết để hỗ trợ Ukraine và tiếp tục áp dụng các biện pháp trừng phạt đối với Nga vì hành vi xâm lược.",
+      "tts_chars": 318
+    },
+    {
+      "text_id": "text_17",
+      "chunk_index": 2,
+      "chunk_id": "text_17_chunk_02",
+      "raw_chunk": "Bà cho rằng việc đoàn kết quốc tế là quan trọng để sớm đạt được một nền hòa bình công bằng và bền vững. Bà Takaichi cam kết Nhật Bản sẽ làm việc với cộng đồng quốc tế để hỗ trợ Ukraine và duy trì các biện pháp trừng phạt.",
+      "tts_text": "Bà cho rằng việc đoàn kết quốc tế là quan trọng để sớm đạt được một nền hòa bình công bằng và bền vững. Bà Takaichi cam kết Nhật Bản sẽ làm việc với cộng đồng quốc tế để hỗ trợ Ukraine và duy trì các biện pháp trừng phạt.",
+      "tts_chars": 221
+    },
+    {
+      "text_id": "text_17",
+      "chunk_index": 3,
+      "chunk_id": "text_17_chunk_03",
+      "raw_chunk": "Bài báo nêu rằng từ khi Nga xâm lược toàn diện năm 2022, Nhật Bản đã hỗ trợ Ukraine nhưng do hạn chế pháp lý về xuất khẩu vũ khí nên chỉ cung cấp hàng không sát thương như xe tải và áo giáp, đồng thời cung cấp máy phát điện và dẫn dắt kế hoạch tái thiết cơ sở hạ tầng.",
+      "tts_text": "Bài báo nêu rằng từ khi Nga xâm lược toàn diện năm hai nghìn không trăm hai mươi hai, Nhật Bản đã hỗ trợ Ukraine nhưng do hạn chế pháp lý về xuất khẩu vũ khí nên chỉ cung cấp hàng không sát thương như xe tải và áo giáp, đồng thời cung cấp máy phát điện và dẫn dắt kế hoạch tái thiết cơ sở hạ tầng.",
+      "tts_chars": 297
+    },
+    {
+      "text_id": "text_17",
+      "chunk_index": 4,
+      "chunk_id": "text_17_chunk_04",
+      "raw_chunk": "Tổng thống Zelenskyy bày tỏ cảm ơn và gợi ý hợp tác thêm trong phát triển drone và cung cấp trang bị phòng không, nhưng không công khai yêu cầu thêm viện trợ trước cuộc gặp. Bài báo cũng có ảnh chụp Thủ tướng Takaichi ký tài liệu tại trụ sở Liên Hợp Quốc.",
+      "tts_text": "Tổng thống Zelenskyy bày tỏ cảm ơn và gợi ý hợp tác thêm trong phát triển drone và cung cấp trang bị phòng không, nhưng không công khai yêu cầu thêm viện trợ trước cuộc gặp. Bài báo cũng có ảnh chụp Thủ tướng Takaichi ký tài liệu tại trụ sở Liên Hợp Quốc.",
+      "tts_chars": 255
+    }
+  ]
+}

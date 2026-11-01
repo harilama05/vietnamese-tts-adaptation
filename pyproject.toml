@@ -1,0 +1,10 @@
+[project]
+name = "g-omnivoice-finetune"
+version = "0.1.0"
+description = "Recovered Vietnamese G-OmniVoice full fine-tuning pipeline through checkpoint-17500"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

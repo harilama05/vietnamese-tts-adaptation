@@ -1,0 +1,11 @@
+{
+  "case_count": 101,
+  "reference_sha256": "1887504551ca86cd18dee44acfcc45ed8333aaddab2813169a76ae3a5274f604",
+  "mean_nisqa_mos": 4.66684,
+  "mean_dnsmos_ovrl": 3.433894,
+  "mean_speaker_similarity": 0.951994,
+  "mean_clipping_pct": 0.000238,
+  "mean_silence_frame_pct": 19.759814,
+  "mean_rms_dbfs": -18.38324,
+  "mean_peak_dbfs": -0.657628
+}

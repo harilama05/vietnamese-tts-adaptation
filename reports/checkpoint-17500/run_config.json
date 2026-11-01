@@ -1,0 +1,23 @@
+{
+  "name": "g_omnivoice_full",
+  "base_model": "/data/sakai99/ai-data-02/sakai99/finetune_outputs/g_omnivoice_full_recommended/run/checkpoint-17500",
+  "adapter": null,
+  "chunks_sha256": "0879980c0099d1f448b416691ab1261ba1c3fc10c86098c8889962fb14c9bfe3",
+  "reference_audio": "/data/sakai99/ai-data-02/sakai99/omnivoice_g_omnivoice_full_17500_17text_audit/reference/ref04.wav",
+  "reference_sha256": "1887504551ca86cd18dee44acfcc45ed8333aaddab2813169a76ae3a5274f604",
+  "reference_text": "đối đầu với một đối thủ nhập tịch nhiều, có thể hình vượt trội và nhiều duyên nợ",
+  "seed": 42,
+  "generation": {
+    "language": "vi",
+    "num_step": 32,
+    "guidance_scale": 2.0,
+    "speed": 1.0,
+    "t_shift": 0.1,
+    "denoise": true,
+    "postprocess_output": true,
+    "layer_penalty_factor": 5.0,
+    "position_temperature": 5.0,
+    "class_temperature": 0.0,
+    "normalize_text": false
+  }
+}

@@ -1,0 +1,404 @@
+[
+  {
+    "source": ".repo_work/g_omnivoice_full_finetune_v2/g_omnivoice_full_finetune_v2/download_g_omnivoice.py",
+    "source_sha256": "f3d8b9a7a849faf12d54c7a0485dc6aa9bbfa5d33d4bec3ca8f0ae1fa1b27129",
+    "destination": "scripts/training/download_g_omnivoice.py",
+    "transformation": "copy"
+  },
+  {
+    "source": ".repo_work/g_omnivoice_full_finetune_v2/g_omnivoice_full_finetune_v2/make_train_config.py",
+    "source_sha256": "74cef6d2e26044b3bb8f4cba8423d7ebd2a6958eb50525842ece36b7f0877a54",
+    "destination": "scripts/training/make_train_config.py",
+    "transformation": "copy"
+  },
+  {
+    "source": ".repo_work/g_omnivoice_full_finetune_v2/g_omnivoice_full_finetune_v2/prepare_manifest.py",
+    "source_sha256": "bb99844a25607455aa2d82ecf9a15415d030fe44894d00090cd44f685843f003",
+    "destination": "scripts/training/prepare_manifest.py",
+    "transformation": "copy"
+  },
+  {
+    "source": ".repo_work/g_omnivoice_full_finetune_v2/g_omnivoice_full_finetune_v2/tokenize_parts.py",
+    "source_sha256": "3b299b4ccf5538464ebe6eb3cb8aa2a7d0ebe24c92374ed200d5da565029c5e4",
+    "destination": "scripts/training/tokenize_parts.py",
+    "transformation": "copy"
+  },
+  {
+    "source": ".repo_work/g_omnivoice_full_finetune_v2/g_omnivoice_full_finetune_v2/run_g_omnivoice_full.sh",
+    "source_sha256": "23b3d12b011c41dce09e702e7c80c0daf95244f2f0cdc724487eaf57470e23b2",
+    "destination": "scripts/training/run_g_omnivoice_full.sh",
+    "transformation": "copy"
+  },
+  {
+    "source": ".repo_work/g_omnivoice_full_finetune_v2/g_omnivoice_full_finetune_v2/eval17/build_news_cases.py",
+    "source_sha256": "71d6dd67d9c243e31064853d9a04d2584cd8a2f69018d7f8aec2f4733a87f7c9",
+    "destination": "scripts/evaluation/build_news_cases.py",
+    "transformation": "copy"
+  },
+  {
+    "source": ".repo_work/g_omnivoice_full_finetune_v2/g_omnivoice_full_finetune_v2/eval17/evaluate_omnivoice_model.py",
+    "source_sha256": "7ceaee33788e694224915439cef8ca2c3dab79f87effd3a9e6c94fa122352b9b",
+    "destination": "scripts/evaluation/evaluate_omnivoice_model.py",
+    "transformation": "copy"
+  },
+  {
+    "source": ".repo_work/g_omnivoice_full_finetune_v2/g_omnivoice_full_finetune_v2/eval17/make_news_audit_report.py",
+    "source_sha256": "5c3f925ce45cb39ef3434cec22e95b410ea46b0c51409e3b194f419d227d20d9",
+    "destination": "scripts/evaluation/make_news_audit_report.py",
+    "transformation": "copy"
+  },
+  {
+    "source": ".repo_work/g_omnivoice_full_finetune_v2/g_omnivoice_full_finetune_v2/eval17/prepare_news_norm_audit.py",
+    "source_sha256": "8d790761b4767debee5aaf57a2796e97b28c85b3db662cdc26b2fbb9cce8ed48",
+    "destination": "scripts/evaluation/prepare_news_norm_audit.py",
+    "transformation": "copy"
+  },
+  {
+    "source": ".repo_work/g_omnivoice_full_finetune_v2/g_omnivoice_full_finetune_v2/eval17/run_eval_17text.sh",
+    "source_sha256": "470ab603548af05e58f6d9930b87d426a3306238984b84b7d2e6dad0bd3cc439",
+    "destination": "scripts/evaluation/run_eval_17text.sh",
+    "transformation": "copy"
+  },
+  {
+    "source": ".repo_work/g_omnivoice_full_finetune_v2/g_omnivoice_full_finetune_v2/eval17/score_news_norm_audit.py",
+    "source_sha256": "3ee8de213a6e21e2cda4c8d88c90e63726b42bcd71e265d47f1bda3dbd0486ec",
+    "destination": "scripts/evaluation/score_news_norm_audit.py",
+    "transformation": "copy"
+  },
+  {
+    "source": ".repo_work/g_omnivoice_full_finetune_v2/g_omnivoice_full_finetune_v2/eval17/score_news_objective.py",
+    "source_sha256": "abe11af6baabf77ec87602eb185daf37cedb2a6567b8a7666591510f366f8e6d",
+    "destination": "scripts/evaluation/score_news_objective.py",
+    "transformation": "copy"
+  },
+  {
+    "source": ".repo_work/g_omnivoice_full_finetune_v2/g_omnivoice_full_finetune_v2/eval17/danhgia_tts.txt",
+    "source_sha256": "40f0aeae73021a4c6447fdd39d345638afa6ab0fe55d4f596e69e3d5e8b5f163",
+    "destination": "benchmarks/danhgia_tts.txt",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/shared_chunks.json",
+    "source_sha256": "85a96e042f12db2a88000875e2c6bf0ce436bbc43f16ff0106f8a7c57d6aa3a5",
+    "destination": "benchmarks/expected_shared_chunks.json",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/input_documents.jsonl",
+    "source_sha256": "0ac01072e61caacfe58e2e2cb710e93a1e10ab81aae0d7a394d1f75ea40b1d58",
+    "destination": "benchmarks/documents.jsonl",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/__init__.py",
+    "source_sha256": "9ec5d8a16ba74e741f6f82fc7d17e248fbafdb9867b529ae1c9056254fbd1b85",
+    "destination": "norm/__init__.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/__main__.py",
+    "source_sha256": "391c0597fae899e836e6ab387e6033fe0086f07896eea29369262a264d2f2da0",
+    "destination": "norm/__main__.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/_version.py",
+    "source_sha256": "6a20834ca0ecf348198efaa25d893186afcc2e2e03bb42fd381c83afa644555e",
+    "destination": "norm/_version.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/acronyms.py",
+    "source_sha256": "c902285ddef5e8e08705d09a70b95a0e9ffaab4a08e9475cd6f43b1d90fcb531",
+    "destination": "norm/acronyms.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/boundaries.py",
+    "source_sha256": "c61ea6b54b153942081474943081e9127f69ff05a69210874c71171d05373624",
+    "destination": "norm/boundaries.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/config.py",
+    "source_sha256": "97383207a5559f1ec2163effc2cacd7bea45826729a0ce386134246ee0395617",
+    "destination": "norm/config.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/data/abbreviations.txt",
+    "source_sha256": "f3ad7fec1bdf6cb854dd1ba66662206b2104ab199dbdab221c77b2ca114a75e3",
+    "destination": "norm/data/abbreviations.txt",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/data/LICENSE.soe-vinorm",
+    "source_sha256": "2520b5387ca17d16866191b57f71198ff8ab9a42603695510249c5a975a147ee",
+    "destination": "norm/data/LICENSE.soe-vinorm",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/data/NOTICE.md",
+    "source_sha256": "4f7f513e645615c50b1a6361bade17886c46064c84754abce4fd321cfaa21632",
+    "destination": "norm/data/NOTICE.md",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/domains.py",
+    "source_sha256": "11f93b3fda8cc707fc08b65cc7386c531662a14a3534fe13ae3cbfccfe3cfb9b",
+    "destination": "norm/domains.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/expressions.py",
+    "source_sha256": "a937bf4d091f93bc62e64e2073a769711f697dec414ae151b7b23f1965ea37f7",
+    "destination": "norm/expressions.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/lexicon.py",
+    "source_sha256": "50c6f8afa7474f1dbddfc980bc9ab9049c77c436c398c080e0cf2a92dc927362",
+    "destination": "norm/lexicon.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/news.py",
+    "source_sha256": "2bd14ed93a537b06a3f259ff041f45d063ad0acbf4ffb1c4d9521e79e5a68188",
+    "destination": "norm/news.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/normalizer.py",
+    "source_sha256": "4ab5888d47c8545b2d8cfbd28ea0248dcbe77c2632cd6217aeb8c6853459aa57",
+    "destination": "norm/normalizer.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/numbers.py",
+    "source_sha256": "8d8287355eec69e5f7bf420f08ba228cb800c1e9a50acbba69baefff0ea81ca1",
+    "destination": "norm/numbers.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/places.py",
+    "source_sha256": "0945c21ed50bc9d8e82759ef375e87cc58e78cbc08055831679bc6e64f470143",
+    "destination": "norm/places.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/profiles/news.json",
+    "source_sha256": "4b90449a2578a75efae9f578c6a50440f9d1df757ac40dad38d720498197572f",
+    "destination": "norm/profiles/news.json",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/profiles/text07.json",
+    "source_sha256": "4ba4cb2f0de1c94bbdf20bacb1281af21f7c4fc8cdd2e3152ce6dade6cb85dbc",
+    "destination": "norm/profiles/text07.json",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/pyproject.toml",
+    "source_sha256": "450cb53d96e145a2e0bc8677c9b344a920866755a8d4a0706b66853a4d85bfa9",
+    "destination": "norm/pyproject.toml",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/quantities.py",
+    "source_sha256": "87992fbd47f0dd41f7d628af74f67f01f98402ea59cb1fe5b4d8d8a947da5451",
+    "destination": "norm/quantities.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/README.md",
+    "source_sha256": "f6b82f75ee7393addd44f2729cceca89871f85b9d802e147d1a0b826c57d5314",
+    "destination": "norm/README.md",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/sentences.py",
+    "source_sha256": "04f2d5185751e9ac061c5e8e732b6c1e80efccaee613b6e55a31e1c4c4a8706b",
+    "destination": "norm/sentences.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/tests/data/news.json",
+    "source_sha256": "87124a27e1fa380dd9802c3158633e59cec475f7770cdd61db04860525c058b3",
+    "destination": "norm/tests/data/news.json",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/tests/test_composite_units.py",
+    "source_sha256": "45806c075313eb27133a0fd90541122f3c90f0c7dfdd47ffc8b7786e53012216",
+    "destination": "norm/tests/test_composite_units.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/tests/test_crosscheck.py",
+    "source_sha256": "fa0699e06d8f499e7cf685d412ed8b3659ff38bae0724e809cb3e8578e78033e",
+    "destination": "norm/tests/test_crosscheck.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/tests/test_evaluation_regressions.py",
+    "source_sha256": "bafb84c6c5e44a45fee664cccf4747ea336ef041f92059387f4c0d1356aeef0d",
+    "destination": "norm/tests/test_evaluation_regressions.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/tests/test_news.py",
+    "source_sha256": "fadae1018d69c3b272253b8909df266ed491b127f2ca25ec1bfd2417b8493fcf",
+    "destination": "norm/tests/test_news.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/tests/test_upgrade_0_10_0.py",
+    "source_sha256": "8a53bb3e493347e629ee23b9ebf9a01e8b441cd742853440844c12edc018ca58",
+    "destination": "norm/tests/test_upgrade_0_10_0.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/tests/test_upgrade_0_11_0.py",
+    "source_sha256": "9bdc780fe0e457169a6c15b66344df447017fd56ab1072a68397d8c23878357c",
+    "destination": "norm/tests/test_upgrade_0_11_0.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/tests/test_upgrade_0_12_0.py",
+    "source_sha256": "dc77bf86b7fec38a16cb28baa88c656afc770b054f8b17dfc1312789abe6c55d",
+    "destination": "norm/tests/test_upgrade_0_12_0.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/tests/test_upgrade_0_13_0.py",
+    "source_sha256": "f618b6352c8cb0936dd0387395391a1f4e21cddd4dce402fbcc2d2ca47aee835",
+    "destination": "norm/tests/test_upgrade_0_13_0.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/tests/test_upgrade_0_13_1.py",
+    "source_sha256": "75a8ae1a76cde35edee74cbd37b6bf6a1952d60938bf634654633677079acc6d",
+    "destination": "norm/tests/test_upgrade_0_13_1.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/tests/test_upgrade_0_13_2.py",
+    "source_sha256": "8b5f064ad49638d8c7fcac3d3c369b6fe20739730c650dfe4b0516bdac6d7117",
+    "destination": "norm/tests/test_upgrade_0_13_2.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/tests/test_upgrade_0_13_3.py",
+    "source_sha256": "fd4af6811a48bdb7aece06cd978fb7d5c29ce5957d6adf4b7e073fe5c9756721",
+    "destination": "norm/tests/test_upgrade_0_13_3.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/unit_tree.py",
+    "source_sha256": "133b24ccf27ba9e34285cfcc36e82bfff273893fbf25e48e0a729549e7848197",
+    "destination": "norm/unit_tree.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/units.py",
+    "source_sha256": "dbce63ed1ee730ac17c70abbbd083b97ed9670cdb525e20932e856df4236f59f",
+    "destination": "norm/units.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/vi_abbreviations.py",
+    "source_sha256": "1765dac989c70865ab755dea14788a86f7659dfc76d1bf37038ee971101f2386",
+    "destination": "norm/vi_abbreviations.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/code_snapshot/norm/web.py",
+    "source_sha256": "14a656b0826af65262dd9384b22fbef728b6cd8ad0be8375ade9c71598b715e4",
+    "destination": "norm/web.py",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/audit_summary.json",
+    "source_sha256": "078c57ad25aa0aaf0247d6e568f9010db9bc0970aeefec99a2a6d34c79d96af2",
+    "destination": "reports/checkpoint-17500/audit_summary.json",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/objective_summary.json",
+    "source_sha256": "53c2223fdcdbaa28b1681f38cd1e914208aafd4cfed81b5253f5a2d4184450d9",
+    "destination": "reports/checkpoint-17500/objective_summary.json",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/whisper_summary.json",
+    "source_sha256": "49955ef32fb88fc202a2fb52eca3cdc92a366c3de07c0ed3600582eaefdf093a",
+    "destination": "reports/checkpoint-17500/whisper_summary.json",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/prepare_config.json",
+    "source_sha256": "7c0af6be3ef882654aa1004cf81055bc0c6466c8fc93c76e397fc6e3e9e3c9f5",
+    "destination": "reports/checkpoint-17500/prepare_config.json",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/audit_results.csv",
+    "source_sha256": "b05f185a5f679af391eaf2248b8b856fa88f040ae9780df9235f2a5a49401148",
+    "destination": "reports/checkpoint-17500/audit_results.csv",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/document_summary.csv",
+    "source_sha256": "f8865525dc8ae29578ae1bcd237d40180036981c2cc841a4dcdc49bfed713ae8",
+    "destination": "reports/checkpoint-17500/document_summary.csv",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/whisper_case_metrics.csv",
+    "source_sha256": "5316f1cdaba4044c5733f99d1499ea2c9a3dac1706ccee72d7ead5772d2c0ca7",
+    "destination": "reports/checkpoint-17500/whisper_case_metrics.csv",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/objective_case_metrics.csv",
+    "source_sha256": "33e8153548878acc7cd500341f48fb621d02b334c92225930d3f112e4debe55e",
+    "destination": "reports/checkpoint-17500/objective_case_metrics.csv",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/full_model/run_config.json",
+    "source_sha256": "e88b34530c3b5fd5e7466f115cf57a528925a846cbee96e056db55120d33c5df",
+    "destination": "reports/checkpoint-17500/run_config.json",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/omnivoice_g_omnivoice_full_17500_17text_audit_RESULTS/omnivoice_g_omnivoice_full_17500_17text_audit/full_model/summary.json",
+    "source_sha256": "56bd21fbf6edd9e1dd288bedb0e343fab0b5b7b5f496883b990caf38282c6cc9",
+    "destination": "reports/checkpoint-17500/summary.json",
+    "transformation": "copy"
+  },
+  {
+    "source": "Month3/Day1-2/g_omnivoice_17500_model_error_candidates.xlsx",
+    "source_sha256": "8cc65830d27c59efa99791b2464948eb44292c8a726260279ad90cff54e19b1e",
+    "destination": "reports/manual-review/g_omnivoice_17500_model_error_candidates_sheet1.csv",
+    "transformation": "XLSX -> CSV; cached cell values"
+  },
+  {
+    "source": "Month3/Day1-2/g_omnivoice_17500_model_error_candidates.xlsx",
+    "source_sha256": "8cc65830d27c59efa99791b2464948eb44292c8a726260279ad90cff54e19b1e",
+    "destination": "reports/manual-review/g_omnivoice_17500_model_error_candidates_sheet2.csv",
+    "transformation": "XLSX -> CSV; cached cell values"
+  },
+  {
+    "source": "Month3/Day1-2/g_omnivoice_17500_norm_errors_review.xlsx",
+    "source_sha256": "9d301dd7f8d7962bc1ce229a587f2f83a8a1337fcb20f7fddc76dc18f4a9e65b",
+    "destination": "reports/manual-review/g_omnivoice_17500_norm_errors_review_sheet1.csv",
+    "transformation": "XLSX -> CSV; cached cell values"
+  },
+  {
+    "source": "Month3/Day1-2/g_omnivoice_17500_norm_errors_review.xlsx",
+    "source_sha256": "9d301dd7f8d7962bc1ce229a587f2f83a8a1337fcb20f7fddc76dc18f4a9e65b",
+    "destination": "reports/manual-review/g_omnivoice_17500_norm_errors_review_sheet2.csv",
+    "transformation": "XLSX -> CSV; cached cell values"
+  }
+]
