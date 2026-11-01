@@ -1,73 +1,113 @@
-# G-OmniVoice Vietnamese Fine-tuning
+# Vietnamese TTS Adaptation & Evaluation
 
-Repo tổ chức lại quy trình **full fine-tune `g-group-ai-lab/g-omnivoice` đến checkpoint 17.500**, kèm chuẩn bị manifest, audio tokenization, resume và đánh giá tiếng Việt trên 17 văn bản / 101 chunk.
+**Full-Parameter Fine-Tuning of G-OmniVoice for Vietnamese Speech Synthesis**
 
-Đây là dự án fine-tune của người dùng từ checkpoint G-OmniVoice được phát hành sẵn. Mã huấn luyện nền sử dụng [k2-fsa/OmniVoice](https://github.com/k2-fsa/OmniVoice). Phạm vi repo kết thúc tại **`checkpoint-17500`**.
+A Vietnamese text-to-speech project covering training data validation, resumable audio tokenization, full-parameter model adaptation, text normalization, and speech evaluation. The selected experiment ends at **checkpoint 17,500** and is evaluated on **17 documents split into 101 speech segments**.
 
-## Kết quả đã lưu
+The pretrained initialization is [G-OmniVoice](https://huggingface.co/g-group-ai-lab/g-omnivoice), and the model architecture and training engine come from [k2-fsa/OmniVoice](https://github.com/k2-fsa/OmniVoice). This repository contains the adaptation workflow, normalization snapshot, benchmark inputs, and recorded evaluation results.
 
-| Chỉ số | Checkpoint 17.500 |
+## Project focus
+
+Vietnamese speech synthesis needs more than a training loop: numbers, dates, units, abbreviations, and foreign names affect what the model is asked to pronounce. This project connects model adaptation with a traceable text frontend and an evaluation workflow that distinguishes normalization issues from potential synthesis or ASR errors.
+
+The workflow includes:
+
+- **Training manifests:** validate every CSV row, preserve duplicate source IDs through unique row-based IDs, and reject incomplete manifests.
+- **Resumable tokenization:** split data into parts, verify token shards and row counts, and invalidate caches when the manifest or audio tokenizer changes.
+- **Full-parameter fine-tuning:** initialize from G-OmniVoice, train with BF16 and FlexAttention, and manage checkpoints and resume state.
+- **Vietnamese text normalization:** use a versioned normalizer with span traces before benchmark synthesis.
+- **Speech evaluation:** compute Whisper WER/CER, NISQA, DNSMOS, WavLM speaker similarity, signal metrics, and generation speed.
+- **Review outputs:** export per-segment metrics, document summaries, manual review tables, and an HTML audio review page.
+
+## What “full-parameter” means here
+
+The recovered training configuration sets `use_lora=false` and initializes from a pretrained G-OmniVoice checkpoint. The upstream builder loads the TTS model in training mode; the optimizer updates its trainable parameters without attaching LoRA adapters.
+
+**The pretrained audio codec is used separately to encode/decode audio; it is not retrained in this workflow.** This is continued fine-tuning of a pretrained TTS model. The recovered configuration and archived evaluation metadata support that training mode; the original run's complete frozen configuration and optimizer state are unavailable.
+
+See the [local training configuration](scripts/training/make_train_config.py), [upstream model builder](https://github.com/k2-fsa/OmniVoice/blob/08be0b4ccbac3e13e374e86fbfead4b4cac343e2/omnivoice/training/builder.py), and [upstream optimizer setup](https://github.com/k2-fsa/OmniVoice/blob/08be0b4ccbac3e13e374e86fbfead4b4cac343e2/omnivoice/training/trainer.py).
+
+## Recorded results
+
+| Metric | Checkpoint 17,500 |
 | --- | ---: |
-| Văn bản / chunk | 17 / 101 |
-| Whisper mean WER ↓ | 9,016% |
-| Whisper mean CER ↓ | 6,7603% |
-| NISQA MOS dự đoán ↑ | 4,666840 |
-| DNSMOS OVRL ↑ | 3,433894 |
-| WavLM speaker similarity ↑ | 0,951994 |
-| Weighted generation RTF ↓ | 0,057426 |
+| Documents / speech segments | 17 / 101 |
+| Mean Whisper WER ↓ | 9.016% |
+| Mean Whisper CER ↓ | 6.7603% |
+| Predicted NISQA MOS ↑ | 4.666840 |
+| DNSMOS OVRL ↑ | 3.433894 |
+| WavLM speaker similarity ↑ | 0.951994 |
+| Weighted generation RTF ↓ | 0.057426 |
 
-Số liệu lấy từ [báo cáo gốc](reports/checkpoint-17500/), không phải lần huấn luyện lại khi sắp xếp repo. WER/CER là phép đo qua Whisper; NISQA/DNSMOS là điểm dự đoán, không phải human MOS. Có 18 chunk cần xem lại normalization và 49 chunk cần nghe để tách lỗi TTS khỏi lỗi ASR. Xem [cách đọc kết quả](docs/evaluation.md).
+These values come from the [archived experiment results](reports/checkpoint-17500/). WER/CER are means across segments and use Whisper transcripts. NISQA/DNSMOS are model predictions rather than human listening scores. Generation RTF is total generation time divided by total generated audio duration and reflects the recorded run.
 
-## Cấu trúc
+The audit flags **18 segments for normalization review** and **49 for model-or-ASR review**. These flags are screening results, not confirmed synthesis errors. No paired pretrained baseline is included, so the table does not establish an improvement over the base model. See [evaluation methodology](docs/evaluation.md).
+
+## Repository layout
 
 ```text
 .
-├── benchmarks/                 # 17 văn bản + 101 chunk chuẩn để đối chiếu
-├── configs/                    # Mẫu cấu hình máy/HPC
-├── docs/                       # Dữ liệu, huấn luyện, đánh giá, nguồn gốc
-├── norm/                       # Vietnamese TTS Normalizer 0.13.3 từ snapshot
-├── reports/                    # Kết quả checkpoint-17500 + review CSV
-├── requirements/               # Phụ thuộc đánh giá và kiểm thử
+├── benchmarks/                 # Source documents and expected 101-segment output
+├── configs/                    # Machine-specific configuration template
+├── docs/                       # Data, training, evaluation, and project notes
+├── norm/                       # Vietnamese TTS Normalizer 0.13.3 snapshot
+├── reports/                    # Checkpoint-17500 metrics and manual review tables
+├── requirements/               # CUDA, training, evaluation, and test dependencies
+├── requirements.txt            # Training + evaluation dependency entry point
 ├── scripts/
-│   ├── training/               # CSV → JSONL → audio tokens → full fine-tune
-│   ├── evaluation/             # Synthesis, Whisper, objective metrics, HTML review
+│   ├── training/               # CSV manifests, tokenization, model/config utilities
+│   ├── evaluation/             # Synthesis, ASR/quality scoring, and reports
 │   ├── setup.sh
 │   ├── train.sh
 │   ├── evaluate.sh
 │   ├── prepare_benchmark.py
 │   └── check_repo.py
-└── tests/                      # Kiểm tra pipeline chạy trên CPU
+└── tests/                      # CPU pipeline checks
 ```
 
-## Bắt đầu
+## Installation
 
-Huấn luyện và sinh âm thanh dùng **Linux/HPC hoặc WSL2 có NVIDIA CUDA**, Python 3.12, GPU hỗ trợ BF16. Cấu hình dùng PyTorch 2.8.0 / CUDA 12.8. Máy cần Git, `ffmpeg`, `taskset` và `zip`. Chưa xác định được yêu cầu VRAM huấn luyện tối thiểu từ tài liệu lưu trữ; hãy chạy smoke test trên GPU của bạn.
+GPU training and synthesis target **Linux or WSL2, Python 3.12, and an NVIDIA GPU with BF16 support**. The environment uses **PyTorch 2.8.0 with CUDA 12.8**. Install Git, FFmpeg, `taskset`, and `zip` as system tools. Minimum training VRAM was not established from the archived materials; validate your hardware with the smoke test.
 
 ```bash
-git clone <URL_REPO_CUA_BAN> g-omnivoice-finetune
+git clone https://github.com/harilama05/g-omnivoice-finetune.git
 cd g-omnivoice-finetune
 cp configs/project.env.example configs/local.env
-# Sửa configs/local.env: CSV, GPU, reference audio/text, đường dẫn nếu cần.
+# Edit local.env for your dataset, GPU allocation, and reference files.
 bash scripts/setup.sh
 source .venv/bin/activate
 ```
 
-Setup tải upstream tại commit `08be0b4ccbac3e13e374e86fbfead4b4cac343e2`, là commit được ghi trong tài liệu tiền xử lý gốc và đã đối chiếu API với mã phục hồi. Đây chưa phải bằng chứng về commit thực sự của run 17.500. Các dependency bậc hai chưa được khóa hoàn toàn; setup lưu `pip freeze` vào thư mục output cho lần chạy mới.
+The setup script checks out OmniVoice at commit `08be0b4ccbac3e13e374e86fbfead4b4cac343e2`, then installs the upstream runtime, local normalizer, and dependencies in one pip invocation. That commit was recorded in the source preparation notes and checked for API compatibility; it is not a verified record of the exact source revision used by the original training run.
 
-[Model G-OmniVoice](https://huggingface.co/g-group-ai-lab/g-omnivoice) có điều kiện truy cập trên Hugging Face. Đăng nhập bằng tài khoản đã được cấp quyền trước khi tải. Giữ token trong môi trường hoặc kho đăng nhập Hugging Face.
+### Dependency files
 
-### 1. Dữ liệu
+| File | What it installs |
+| --- | --- |
+| [requirements.txt](requirements.txt) | Combined GPU training and evaluation dependencies |
+| [requirements/torch-cu128.txt](requirements/torch-cu128.txt) | Matching CUDA builds of PyTorch and torchaudio |
+| [requirements/training.txt](requirements/training.txt) | Transformers, Accelerate, NumPy, Hub/checkpoint utilities, WebDataset, audio I/O, and logging |
+| [requirements/evaluation.txt](requirements/evaluation.txt) | Faster-Whisper, JiWER, TorchMetrics audio metrics, ONNX Runtime, and supporting libraries |
+| [requirements/dev.txt](requirements/dev.txt) | Pytest for CPU acceptance tests |
 
-Đặt CSV huấn luyện tại `data/combined_train_shuffled.csv` hoặc khai báo `CSV` trong cấu hình. CSV cần các cột:
+The setup script also installs the OmniVoice source checkout and `./norm` as editable packages. Development requirements are intentionally separate from the GPU runtime. See [dependency details](requirements/README.md).
+
+These specifications are not a complete historical lockfile. Setup saves the resolved packages to `outputs/environment.freeze.txt` for new runs. Model and metric weights are downloaded separately. Access to the G-OmniVoice initialization requires the relevant Hugging Face permissions.
+
+## Training
+
+### 1. Provide the dataset
+
+Place your CSV at `data/combined_train_shuffled.csv`, or set `CSV` in `configs/local.env`.
 
 ```csv
 dataset,segment_id,audio_path,text
 htv,segment_001,audio/segment_001.wav,"Đây là văn bản huấn luyện đã chuẩn bị."
 ```
 
-Đường dẫn audio tương đối được tìm theo CSV và các vị trí fallback đã ghi trong manifest report. Mọi dòng hợp lệ đều vào train, không chia dev, không lọc WER, không normalize thêm. Dòng lỗi khiến bước prepare thất bại. Xem [hợp đồng dữ liệu](docs/data.md).
+The workflow uses all valid rows as training data, preserves the supplied transcript, and applies no additional text normalization or WER filtering. It does not create a development split. Audio paths must resolve to real files; token shard output paths must not contain whitespace. See the [data contract](docs/data.md).
 
-### 2. Full fine-tune
+### 2. Run the workflow
 
 ```bash
 bash scripts/train.sh check
@@ -78,7 +118,20 @@ bash scripts/train.sh tokenize
 bash scripts/train.sh start
 ```
 
-Mặc định: full fine-tune, `use_lora=false`, 17.500 bước, LR `1e-5`, `batch_tokens=8192`, gradient accumulation 1, BF16, FlexAttention, seed 42. Mã cấu hình v2 gốc còn lưu đặt 5.000 bước; repo đã đổi đích mặc định thành 17.500 theo checkpoint bạn chốt. **Frozen config và optimizer state của run gốc chưa có**, nên đây là recipe phục hồi để chạy tiếp dự án, không phải cam kết tái tạo bit-for-bit checkpoint đã lưu.
+| Setting | Default |
+| --- | --- |
+| Initialization | `g-group-ai-lab/g-omnivoice` |
+| Adaptation | Full-parameter, `use_lora=false` |
+| Target optimizer steps | 17,500 |
+| Learning rate | `1e-5` |
+| Batch tokens / gradient accumulation | 8192 / 1 |
+| Precision / attention | BF16 / FlexAttention |
+| Warmup ratio / seed | 0.01 / 42 |
+| Checkpoint interval | 500 steps |
+
+The recovered v2 script originally specified 5,000 steps. This repository sets the default target to 17,500 to match the selected checkpoint. The table describes the reconstructed recipe; the original run's frozen configuration is missing.
+
+Monitor or resume a run:
 
 ```bash
 bash scripts/train.sh status
@@ -87,59 +140,68 @@ bash scripts/train.sh stop
 bash scripts/train.sh resume
 ```
 
-Checkpoint đích: `outputs/g_omnivoice_full/run/checkpoint-17500`. Các lần resume dùng lại cấu hình đã đóng băng khi `start`. Xem [hướng dẫn huấn luyện](docs/training.md).
+The default final checkpoint directory is `outputs/g_omnivoice_full/run/checkpoint-17500`. Resume uses the configuration frozen when the new run started and requires the corresponding training state. See [training details](docs/training.md).
 
-### 3. Đánh giá checkpoint 17.500
+## Evaluation
 
-Cần **thư mục checkpoint đầy đủ**, reference WAV và transcript chính xác của nó. Mặc định reference đặt ở `data/reference/ref04.wav` và `data/reference/ref04.txt`; có thể cấu hình đường dẫn riêng.
+Provide a complete checkpoint directory, a reference WAV, and its exact transcript. Default reference paths are `data/reference/ref04.wav` and `data/reference/ref04.txt`; override them in the local configuration as needed.
 
 ```bash
 bash scripts/evaluate.sh check
 bash scripts/evaluate.sh smoke
 bash scripts/evaluate.sh start
 bash scripts/evaluate.sh status
-# Đợi đủ 101/101 chunk rồi chấm điểm:
+# Wait for all 101 segments before scoring.
 bash scripts/evaluate.sh score-all
 bash scripts/evaluate.sh pack
 ```
 
-Kết quả mới nằm trong `outputs/eval_checkpoint_17500/`, gồm WAV theo chunk/văn bản, WER/CER, NISQA/DNSMOS, speaker similarity, normalization trace và trang nghe `review.html`.
+New results are written to `outputs/eval_checkpoint_17500/`, including audio, normalization traces, metric tables, and `review.html`. Use a new result directory when changing the checkpoint, reference, or benchmark inputs.
 
-Chuẩn bị benchmark trên CPU, không tải model:
+To prepare and normalize the benchmark on CPU without loading a speech model:
 
 ```bash
 python scripts/prepare_benchmark.py --output-dir outputs/benchmark_cpu
 ```
 
-## Kiểm tra repo
+## Validation
 
-Các lệnh sau chỉ cần Python và Git, chạy được trên Windows:
+The CPU pipeline checks run with Python and Git, including on Windows:
 
 ```bash
 python -m unittest discover -s tests -v
 python scripts/check_repo.py
 ```
 
-Kiểm tra acceptance của normalizer 0.13.3:
+Run the normalizer's independent 0.13.3 acceptance suite:
 
 ```bash
 python -m pip install -r requirements/dev.txt -e ./norm
 python -m pytest norm/tests/test_upgrade_0_13_3.py -q
 ```
 
-CI kiểm tra CPU, so khớp 101 chunk với snapshot, cú pháp Bash, credential phổ biến và kích thước file. CI không chạy GPU training. Xem [kiểm chứng và giới hạn](docs/reproducibility.md).
+The recorded local validation passed **9 pipeline tests and 118 normalizer acceptance tests**. Pipeline tests reproduce all 101 normalized benchmark segments and exercise manifest failure handling and token-cache recovery. GPU token extraction is mocked in cache tests; GPU training and synthesis have not been rerun during repository preparation.
 
-## Đưa lên GitHub
+The [CI workflow](.github/workflows/checks.yml) covers CPU tests, shell syntax, CLI help, and repository file checks. Some older normalizer tests depend on upstream fixtures absent from the archive and are outside the selected CI suite.
 
-Repo hiện giữ mã nguồn, tài liệu, benchmark và bảng kết quả của nhánh G-OmniVoice checkpoint 17.500. Các thư mục lưu trữ Month1/Month2/Month3 và vùng làm việc tạm đã được dọn sau khi chủ dự án xác nhận có bản sao riêng. Dataset, checkpoint, WAV, cookie, môi trường Python và output mới được bỏ qua bởi Git. Kiểm tra trước khi commit:
+## Reproducibility and scope
 
-```bash
-python scripts/check_repo.py
-git add .
-git diff --cached --stat
-git commit -m "Organize G-OmniVoice full fine-tuning through checkpoint 17500"
-git remote add origin <URL_REPO_CUA_BAN>
-git push -u origin main
-```
+The private training CSV/audio, complete checkpoint, reference WAV, original optimizer state, and full training environment are not bundled. The repository preserves evaluation results and source hashes, but cannot independently reproduce the historical checkpoint bit for bit. See [provenance and limitations](docs/reproducibility.md).
 
-Chỉ đẩy mã nguồn, benchmark và bảng kết quả nhỏ. Model weights nên phát hành riêng nếu bạn có quyền và có đủ metadata. Xem [nguồn gốc và phần thiếu](docs/reproducibility.md) cùng [ghi nhận thành phần bên ngoài](THIRD_PARTY_NOTICES.md).
+Dataset files, model weights, credentials, virtual environments, and generated outputs are excluded from Git. The source archives used during organization were removed from this working directory after their owner confirmed a separate backup.
+
+## Portfolio summary
+
+**Vietnamese TTS Adaptation & Evaluation — Python, PyTorch, Transformers, Accelerate, CUDA, Whisper**
+
+> Developed a full-parameter G-OmniVoice adaptation workflow through checkpoint 17,500, with validated manifests, resumable audio tokenization, Vietnamese text normalization, and speech evaluation across 101 segments from 17 documents.
+
+See [project positioning and CV wording](docs/project-profile.md) for a suggested repository name, project description, and result wording.
+
+## Acknowledgments
+
+- [G-Group AI Lab / G-OmniVoice](https://huggingface.co/g-group-ai-lab/g-omnivoice) — pretrained initialization.
+- [k2-fsa / OmniVoice](https://github.com/k2-fsa/OmniVoice) — architecture, training engine, and inference runtime.
+- The normalizer snapshot retains the [soe-vinorm license and provenance](norm/data/NOTICE.md).
+
+See [third-party notices](THIRD_PARTY_NOTICES.md) for component attribution and licensing notes.

@@ -1,0 +1,5 @@
+# Training + evaluation dependencies for the Linux CUDA 12.8 environment.
+# scripts/setup.sh also installs the pinned OmniVoice checkout and ./norm.
+-r requirements/torch-cu128.txt
+-r requirements/training.txt
+-r requirements/evaluation.txt

@@ -1,1 +1,2 @@
+# CPU test tools only; the GPU runtime is declared separately.
 pytest>=8,<10

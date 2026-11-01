@@ -17,8 +17,9 @@ elif [[ "$(git -C "$OMNIVOICE_REPO" rev-parse HEAD)" != "$REVISION" ]]; then
   exit 1
 fi
 "$VENV_DIR/bin/python" -m pip install --upgrade pip
-"$VENV_DIR/bin/python" -m pip install torch==2.8.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128
-"$VENV_DIR/bin/python" -m pip install -e "$OMNIVOICE_REPO" -e "$PROJECT_ROOT/norm" -r "$PROJECT_ROOT/requirements/evaluation.txt"
+"$VENV_DIR/bin/python" -m pip install \
+  -r "$PROJECT_ROOT/requirements.txt" \
+  -e "$OMNIVOICE_REPO" -e "$PROJECT_ROOT/norm"
 mkdir -p "$BASE_DIR/outputs"
 "$VENV_DIR/bin/python" -m pip freeze > "$BASE_DIR/outputs/environment.freeze.txt"
 git -C "$OMNIVOICE_REPO" rev-parse HEAD > "$BASE_DIR/outputs/omnivoice_revision.txt"
